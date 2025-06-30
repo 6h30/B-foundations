@@ -1,0 +1,33 @@
+## Quản lý tường đa lớp (multilayer wall)
+
+---
+
+[Người kể chuyện] Làm thế nào để tránh việc **mô hình hóa hai lần (modeling twice) các cấu kiện kết cấu như tường**, trong mô hình kiến trúc và kết cấu, nhằm **tối ưu hóa độ chính xác và tránh sai lệch (discrepancy)**? Sự phối hợp với đội ngũ kết cấu là một vấn đề đặc biệt quan trọng, nhất là đối với tường. Trong mô hình BIM (Beam model), các cấu kiện chỉ nên được mô hình hóa một lần (modeled once). Vậy làm thế nào để thực hiện được điều này đối với một bức tường đa lớp (multilayered wall)?
+
+Tôi sẽ chỉ cho bạn một vài lựa chọn và bạn có thể chọn phương án phù hợp nhất với mình, tùy thuộc vào dự án và các bên liên quan (stakeholders). Để minh họa, tôi đã nhập một tệp Revit kết cấu (stricture revit file) vào dự án kiến trúc của mình và tôi đã thay đổi chế độ hiển thị (visibility) của các cấu kiện kết cấu thành màu xanh lam, để chúng ta có thể dễ dàng phân biệt kết cấu với mô hình kiến trúc.
+
+Có ba cách để phối hợp với bộ môn kết cấu (coordinate with structural). Trong một thế giới lý tưởng, chúng ta sẽ không tạo bất kỳ cấu kiện nào không thuộc về mình. Vì vậy, tất nhiên khi nói đến các cấu kiện như cửa hoặc cửa sổ, bạn sẽ phải tạo lại chúng.
+
+Vậy điều đó có nghĩa là gì? Ví dụ, ở đây chúng ta có bức tường kết cấu (structural wall) của mình, và chúng ta phải đặt các lớp hoàn thiện (finishes) mà chúng ta muốn ở mỗi bên của bức tường kết cấu. Rõ ràng, không phải chúng ta có một bức tường đa lớp, mà chúng ta có bức tường kết cấu và hai bức tường có lớp (layered wall).
+
+Hãy cùng xem điều đó có nghĩa là gì. Nếu tôi làm vậy, bạn có thể thấy chúng ta có một số vấn đề trong bản vẽ 2D. Ở đây, tôi không thể liên kết (joined) mô hình kết cấu của mình với bức tường kiến trúc. Đây là một vấn đề nhỏ, bởi vì một khi chúng ta có điều đó, chúng ta thực sự có thể làm việc trên chế độ xem 2D (2d view), hoặc ngay cả ở đây, chúng ta sẽ gặp vấn đề với số lượng vật liệu cách nhiệt (quantity of the installation).
+
+Vậy một số người làm gì? Ở đây tôi có một lựa chọn, đó là thay vì loại bỏ lớp (removing the layer) và chia thành ba bức tường khác nhau, tôi sẽ giữ một bức tường, nhưng trong cấu trúc (structure) bức tường của tôi, tôi sẽ gọi lớp mà kết cấu phải xử lý là "void" (rỗng). Ít nhất bạn có thông tin rằng nó trống ở đó và bạn có thể giữ bất kỳ đồ họa nào (graphics) bạn cần. Vì vậy, ít nhất bây giờ, góc (angle) của bạn sẽ hoạt động tốt hơn nhiều.
+
+Nó cũng tương tự ở đây. Chúng ta có một cấu trúc bên trong và chúng ta có một khoảng trống (void). Hãy cùng xem trong mặt cắt (section), nó sẽ trông như thế nào.
+
+Tất nhiên, nếu bạn quyết định làm như vậy, bạn có thể phải làm tương tự với sàn (floor), bởi vì bây giờ bạn có cả hai, ở đây, đó sẽ trở thành vấn đề tương tự nếu chúng không thể được gắn vào nhau (attached). Thay vì ở phía này, nó hoàn hảo vì chúng ta chỉ thấy phần kết cấu.
+
+---
+
+Một giải pháp khác mà tôi muốn khám phá là **thực sự giữ ba bức tường khác nhau**. Vì vậy, chúng ta có lớp hoàn thiện (finishes layer) của mình và tôi sẽ vẽ. Vì vậy, tôi sẽ vào tường kiến trúc (architecture wall) và tôi sẽ chọn bức tường kết cấu (structure wall) của mình. Nhưng bức tường kết cấu đó thực sự là một khoảng trống (void). Nó vẫn là một khoảng trống, nhưng tôi gọi nó là "kết cấu", bởi vì nó được cho là chỉ để biểu diễn đồ họa (graphically) cấu trúc. Vì vậy, tôi sẽ vẽ bức tường của mình ở đây. Từ cấp độ một (level one) đến cấp độ hai (level two), và tôi sẽ vẽ bức tường của mình.
+
+Bây giờ, bạn có thể thấy rằng bạn có thể làm việc trên các lớp hoàn thiện ở đây, trong bản vẽ đó, dễ dàng hơn nhiều. Vì vậy, những gì bạn có thể làm bây giờ là **lọc (filter) bức tường này để nó sẽ không được xuất (exported) với mô hình BIM**. Vì vậy, bạn có nó cho chế độ xem 2D (2d view) của mình, nhưng bạn sẽ không có nó trong mô hình BIM chính thức (official beam model) của mình.
+
+Rõ ràng, không có giải pháp nhanh chóng (quick fix), nhưng bạn vẫn có một vài khả năng (possibilities). Nhưng đúng là, vì chúng ta vẫn còn nhiều bản vẽ 2D cần hoàn thành, nên có một số liên kết (attachment) mà chúng ta sẽ phải xử lý. Trừ khi chúng ta sử dụng một ít vùng che (masking region), chúng ta sẽ phải tìm giải pháp nhanh hơn và tốt hơn.
+
+Và như tôi vẫn thường nói, vẽ 2D (2d drawing) hoặc chú thích (annotation) không phải là cách nhanh nhất để thực hiện một số bản vẽ nhất định. **Điều quan trọng nhất là khi bạn truyền mô hình (transmit your model) của mình, nó phải chỉ chứa thông tin thuộc trách nhiệm của bạn.** Nhưng điều đó không ngăn cản bạn làm lộn xộn những thứ đó, nhưng hãy cẩn thận tạo các chế độ xem đã lọc (filtered view) để nhanh chóng xuất mô hình BIM của bạn và không mất thời gian.
+
+---
+
+Bạn có muốn tìm hiểu thêm về cách phối hợp các mô hình kiến trúc và kết cấu trong Revit không?

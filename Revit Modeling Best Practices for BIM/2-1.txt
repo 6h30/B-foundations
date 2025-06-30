@@ -1,0 +1,22 @@
+---
+## Những gì người ước tính mong đợi từ một mô hình
+
+[Người dẫn chuyện] Một người ước tính chi phí sử dụng các mô hình **BIM** (**Building Information Modeling**) như thế nào để thực hiện ước tính chi phí, tiết kiệm thời gian và cải thiện độ chính xác? Trong trường hợp ước tính trước khi xây dựng (**pre-construction estimate**), người ước tính sẽ xem xét một vài yếu tố khác nhau.
+
+**Số lượng đối tượng** (**Quantity of object**): Số lượng các đối tượng như cửa hoặc cửa sổ.
+
+**Bề mặt** (**Surface**): Diện tích bề mặt có sẵn để sơn hoặc lát gạch, chẳng hạn. Các phòng, yếu tố hoặc vật liệu có thể được sử dụng để tính toán bề mặt.
+
+**Theo thể tích** (**Per volume**): Đánh giá lượng bê tông cần thiết hoặc bất kỳ vật liệu nào khác.
+
+Chúng ta đã nói trước đây về những gì có thể ảnh hưởng đến độ chính xác (**accuracy**) và hiệu quả (**efficiency**) của việc thu thập thông tin. Và người ước tính của bạn sẽ cảm ơn bạn. Thậm chí có thể giảm giá cho bạn.
+
+Ba điều cần luôn nhớ:
+
+* Sử dụng **mã hóa phù hợp** (**appropriate codification**).
+* **Quy ước đặt tên rõ ràng** (**clear naming convention**).
+* Và tất nhiên, **công cụ phù hợp** (**right tool**).
+
+Hãy tìm hiểu phần mềm mà người ước tính của bạn sử dụng. Phần mềm đó cũng có thể nhận dạng các tiêu chuẩn như **MasterFormat** hoặc **Uniclass**, vốn cũng được sử dụng bởi các phần mềm đặc tả khác. Mặt khác, họ có thể cấu hình hoặc phát triển mã hóa của riêng họ hoặc phát triển một cái cùng với bạn.
+
+Khi nói đến mô hình **BIM** mà chúng ta còn gọi là **nguyên mẫu số của dự án** (**numeric prototype of the project**), và giống như bất kỳ nguyên mẫu nào, nó cần được mô hình hóa theo cùng một cách mà nó sẽ được xây dựng trong thực tế. Việc ước tính chỉ cách một cú nhấp chuột. Bạn có thể tiết kiệm cho họ hàng tuần làm việc. Tôi đã thấy những ước tính chính xác được thực hiện trong hai ngày thay vì hai tuần như thông thường.

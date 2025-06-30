@@ -1,0 +1,33 @@
+---
+## Các Nguyên tắc của BIM: LOD
+
+Nếu bạn quan tâm đến Xây dựng Mô hình Thông tin (BIM), có lẽ bạn đã nghe nói về từ viết tắt **LOD**. Tôi biết có rất nhiều từ viết tắt trong thế giới BIM. **LOD** là viết tắt của **Level of Development** (Mức độ Phát triển). Nó xác định cho từng giai đoạn của dự án mức độ chi tiết của mô hình BIM sẽ được phát triển về hai loại: **Level of Detail** (Mức độ chi tiết) cho hình học, độ hoàn thiện, và **Level of Information** (Mức độ thông tin) cho số lượng dữ liệu. Điều này cho phép các nhà thiết kế, kỹ sư, nhà thầu và bất kỳ bên liên quan nào tập trung công việc của họ vào những gì cần thiết. Điều quan trọng là phải xác định các LOD này ngay từ đầu dự án.
+
+Hãy để tôi giải thích các cấp độ. Chúng chạy từ 100 đến 500. Có sáu cấp độ và chỉ với mục đích giải thích, tôi sẽ liên hệ chúng với các giai đoạn dự án:
+
+* **LOD 100** với thiết kế sơ bộ (**preliminary design**)
+* **LOD 200** với thiết kế sơ đồ (**schematic design**)
+* **LOD 300** cho phát triển thiết kế (**design development**)
+* **LOD 350** cho tài liệu xây dựng (**construction document**)
+* **LOD 400** cho xây dựng (**construction**)
+* **LOD 500** cho hoàn công (**as built**)
+
+Tôi muốn nhấn mạnh rằng tôi đang liên hệ các cấp độ LOD với các giai đoạn dự án ở đây, chỉ để giúp bạn nắm bắt chúng. Tôi trình bày chúng theo cách này để giúp hình dung mức độ chi tiết cho thành phần 3D trong mô hình. Không có sự tương ứng chính thức hoặc chặt chẽ giữa các LOD và các giai đoạn thiết kế.
+
+Bây giờ chúng ta hãy xem xét chi tiết hơn từng cấp độ và sử dụng đặc tả mức độ phát triển chính thức được phát triển bởi **BIM Forum**, Chi hội Hoa Kỳ của **buildingSMART**. Họ mô tả tất cả các thành phần mô hình BIM như tường, thiết bị chiếu sáng, cột kết cấu, hệ thống ống nước, v.v., từ mỗi mốc quan trọng.
+
+Hãy xem xét cột này:
+
+* **LOD 100** là một ý tưởng tổng thể cơ bản về hình dạng và không có dữ liệu, chỉ là một hộp có thể được biểu thị bằng đồ họa trong mô hình bằng một ký hiệu (**symbol**).
+* **LOD 200**, như bạn có thể thấy, cột của bạn bắt đầu có hình dạng của một cột thép. Cấp độ này cần thể hiện kích thước, hình dạng và vị trí gần đúng.
+* **LOD 300**, chúng ta luôn giữ thông tin trước đó, 3D hoặc dữ liệu, để bổ sung. LOD 300 yêu cầu kích thước cụ thể với vị trí và hướng chính xác với vật liệu được xác định.
+* **LOD 350** là một cấp độ mới, được yêu cầu cho mục đích phối hợp (**coordination purposes**). Ở giai đoạn này, thành phần cần được phát triển với tấm đế (**base plate**), hình dạng và vị trí chính xác.
+* **LOD 400** được xác định bởi chi tiết lắp đặt (**mounting detail**), chi tiết lắp ráp mô hình (**model assembly detail**) và thông tin.
+* **LOD 500** không được thể hiện ở đây, nhưng nó xác định nhu cầu về quản lý cơ sở vật chất (**facility management**) và những người cuối cùng này cần tự xác định những gì họ cần. Một số quốc gia yêu cầu định dạng **COBIE** (**construction operation building information exchange**). Nó trông giống như một bảng Excel lớn với tất cả dữ liệu cơ sở vật chất cũ.
+
+Vì vậy, trước đó, tôi đã nói rằng LOD có thể liên quan đến các giai đoạn dự án, nhưng hãy nhớ rằng chính thức thì chúng không phải vậy. Nó chỉ giúp hình dung cột mốc. Thực ra không có cái gọi là mô hình LOD 300. Việc yêu cầu cùng một LOD cho tất cả các đối tượng trong mô hình là vô nghĩa. Tôi biết điều đó có vẻ dễ dàng hơn, nhưng bạn sẽ mất quá nhiều thời gian để chi tiết các đối tượng mà chúng ta không thực sự quan tâm. Ví dụ, tôi cần biết có một cái bàn và một cái ghế trong phòng, tôi không cần vị trí và hình dạng chính xác. Với LOD 100 với mô hình và nhà sản xuất có thông tin đồ họa đã biết có lẽ là đủ.
+
+Vì vậy, xác định LOD không phải là một cột mốc dự án, mà là một vấn đề xác định thành phần mô hình. Đây là ý kiến của tôi, nó không phải là việc sử dụng các LOD chính thức đó. Tôi chủ yếu sử dụng nó như một hướng dẫn. Điều thực sự quan trọng là phải xác định theo mục đích sử dụng BIM (**BIM use**), các giai đoạn dự án và bàn giao (**delivery**), mức độ chi tiết và thông tin cho từng đối tượng, và càng sớm càng tốt trong quá trình. Bạn sẽ không cần cùng một lượng thông tin liên quan đến phân tích (**analysis**), mô phỏng (**simulation**), trực quan hóa (**visualization**) mà bạn muốn chạy. Bằng cách này, nó sẽ cho phép bạn xây dựng mô hình hiệu quả và phù hợp với ngân sách của bạn. Nếu không, bạn có thể dành cả đời để mô hình hóa mọi thứ một cách chi tiết.
+
+---
+Bạn có muốn tìm hiểu thêm về bất kỳ cấp độ LOD cụ thể nào hoặc cách chúng được áp dụng trong các dự án thực tế không?

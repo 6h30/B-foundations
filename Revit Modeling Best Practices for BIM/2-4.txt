@@ -1,0 +1,49 @@
+---
+## Cấu hình chú thích (Keynotes)
+
+Trong bài học này, chúng ta sẽ xem xét cách cấu hình **Chú thích (Keynotes)** trong Revit. Chức năng này cho phép chúng ta sử dụng các tiêu chuẩn phân loại như OmniClass hoặc Masterspec, những tiêu chuẩn thường được sử dụng trong các phần mềm dự toán chi phí và lập đặc điểm kỹ thuật (spec softwares).
+
+---
+### Mở tệp mẫu và truy cập cài đặt chú thích
+
+Tôi đã mở dự án mẫu kiến trúc của Revit. Bây giờ, chúng ta sẽ tìm hiểu cách hoạt động của phân loại chú thích (Keynote classification) trong Revit. Để làm điều này, hãy vào tab **Annotate (Chú thích)**, trong nhóm **Tag (Thẻ)**, chọn **Keynote (Chú thích)**, sau đó chọn **Keynote Settings (Cài đặt chú thích)**.
+
+---
+### Các loại chú thích mặc định và tùy chỉnh
+
+Theo mặc định, bạn sẽ thấy **Revit Keynote Imperial 2010**. Các chú thích này được cài đặt cùng với Revit. Nếu bạn nhấp vào **Browse (Duyệt)**, bạn sẽ được đưa đến thư viện (Library) và có thể thấy các loại chú thích Revit (Revit Keynotes) khác nhau, bao gồm các phiên bản theo ngày khác nhau và phân loại **Uniformat Classification (Phân loại Uniformat)**.
+
+Chúng ta có thể xem **Revit Keynotes Imperial 2010**. Bạn có thể nhấp vào **View (Xem)** bên dưới **Browse (Duyệt)**. Đây cũng là một phân loại với các bộ phận (Division) khác nhau, nhưng nó không phải là một phân loại chính thức (official classification). Bạn có thể sử dụng OmniClass mà Revit cung cấp hoặc tìm một tệp văn bản (text file) Masterspecs hoặc OmniClass trực tuyến.
+
+---
+### Thay đổi phân loại chú thích
+
+Bây giờ, chúng ta hãy chuyển sang **Uniformat Classification**. Nhấp vào **OK**. Do Revit Keynotes sử dụng cả chữ cái và số, nên có vấn đề trong việc tìm các số tương ứng với một chú thích mới (new Keynote). Vì vậy, chú thích này cần được cập nhật thủ công cho từng đối tượng. Nhấp vào **OK**.
+
+Chúng ta cũng có thể xem phân loại Uniformat. Bạn có thể thấy rằng nó được tổ chức hơi khác một chút, mặc dù nó có các chữ cái, nó không tìm thấy cùng một số như chú thích của Revit. Chúng được tổ chức như sau: "A" cho kết cấu móng (substructure), "B" cho lớp vỏ (shell), và "C" cho nội thất (interior). Nhấp vào **OK** hai lần.
+
+---
+### Gán chú thích cho đối tượng
+
+Nếu tôi chọn bất kỳ đối tượng nào trong Revit, ví dụ như chiếc ghế sofa này (có thể là sàn, tường, hoặc bất kỳ đối tượng nào khác), bạn vào **Edit Type (Chỉnh sửa kiểu)** và trong mục **Identity Data (Dữ liệu nhận dạng)**, bạn sẽ thấy **Keynotes**.
+
+Nếu tôi nhấp vào ba dấu chấm nhỏ đó, tôi sẽ có tệp văn bản (text file) mà tôi đã thiết lập cho chú thích (Keynote) của mình. Ví dụ, ở đây là **Furniture (Nội thất)**, và bạn sẽ phải tìm cái bạn muốn.
+
+---
+### Mẹo tìm kiếm chú thích nhanh chóng
+
+Bạn cũng có thể tìm hiểu chúng hoặc tôi có một mẹo nhỏ cho mình vì tôi không thích đi từng dòng và đọc hết. Nó khá dài, vì vậy tôi sẽ hủy ở đây.
+
+Ví dụ, tôi sẽ nhấp vào **Keynote (Chú thích)**, **Keynote Settings (Cài đặt chú thích)**, **Browse (Duyệt)**, và tôi sẽ nhấp chuột phải vào ghi chú văn bản (text note) và chọn **Open (Mở)**. Bây giờ, bạn có thể nhấp vào **Edit (Chỉnh sửa)** và **Find (Tìm kiếm)**. Giờ đây, bạn có thể tìm bất kỳ đối tượng nào bạn cần, bất kỳ loại vật liệu nào, hoặc bất kỳ thứ gì bạn muốn thêm mã (code). Khi bạn tìm thấy cái bạn muốn, bạn có thể giữ nó mở ở chế độ nền (background). Hủy bỏ. Hủy bỏ.
+
+---
+### Ví dụ thực tế
+
+Ví dụ, nếu tôi đang chọn tường nội thất (interior wall), tôi sẽ nhấp vào **Edit Type (Chỉnh sửa kiểu)**, bạn sẽ thấy điều tương tự ở đây, **Keynote (Chú thích)**, và tôi có thể tìm trong "C", ví dụ, **Interior Partition (Vách ngăn nội thất)**. Bạn luôn có các chi tiết rất cụ thể hoặc không quá chi tiết tùy thuộc vào số lượng bạn có. Vì vậy, tôi có thể chỉ nói đó là một vách ngăn nội thất. Tôi không cần phải cung cấp thêm nhiều thông tin nếu tôi không muốn. Nhấp vào **OK** hai lần.
+
+---
+### Lưu ý quan trọng
+
+Bây giờ, đối tượng đã chứa thông tin. Tất nhiên, bạn có thể sử dụng thẻ (tags) và cũng có thể sử dụng chú giải (legend) với nó, nhưng đó không phải là mục đích ở đây. Tôi chỉ muốn chỉ cho bạn cách chèn thông tin đó, thông tin phân loại (classification information), vào đối tượng.
+
+Hãy nhớ kiểm tra ma trận **LOD (Level of Development)** của bạn để biết bạn có cần thông tin đó hay không và bạn nên tuân theo phân loại nào.

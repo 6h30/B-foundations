@@ -1,0 +1,36 @@
+---
+## Nối các cấu kiện (Joining elements)
+
+Để hiểu rõ hơn về cách nối các cấu kiện trong Revit và tác động của chúng đến vật liệu, khối lượng và diện tích, hãy xem xét ví dụ về sàn (floor) và tường (wall) mặc định. Hiện tại, các bức tường đang chồng lấn (overlapping) lên sàn. Điều này sẽ ảnh hưởng như thế nào đến việc lên lịch tường (wall scheduling) hoặc thậm chí là vật liệu bê tông (concrete material)?
+
+Nếu nhìn vào mặt cắt (section), bạn sẽ thấy tường đang chồng lấn lên sàn. Đương nhiên, khi chúng chồng lấn, vật liệu tại giao điểm này sẽ bị nhân đôi (doubled). Có ba cách để giải quyết vấn đề này:
+
+### 1. Gắn Tường vào Sàn (Attach Top/Base)
+
+Cách đầu tiên là chọn bức tường và sử dụng chức năng **Attach Top/Base**. Sau khi chọn chức năng này và chọn sàn, bức tường sẽ được gắn vào sàn. Khi đó, chiều cao (height) của tường sẽ tự động điều chỉnh theo sàn.
+
+### 2. Nối Hai Cấu kiện (Join Elements)
+
+Cách thứ hai là nối hai cấu kiện này. Để thực hiện, bạn vào tab **Modify**, chọn **Geometry** và sau đó chọn **Join**. Nối tường vào sàn. Bạn sẽ thấy chúng được nối hoàn toàn (totally joined), thậm chí còn có một kiểu đồ họa (graphic) khác.
+
+Nếu bạn muốn đảo ngược thứ tự nối, bạn có thể chọn **Switch Join Order** và quyết định rằng tường sẽ đi xuyên qua sàn.
+
+### 3. Điều Chỉnh Thủ Công (Manual Adjustment)
+
+Cách thứ ba là điều chỉnh thủ công. Ví dụ, bạn có thể chọn bức tường và tách nó khỏi sàn bằng cách vào **Modify Wall**, **Detach Top/Base** và **Detach All**. Hình dạng (shape) của bức tường sẽ trở lại trạng thái ban đầu (origin form).
+
+Sau đó, bạn có thể chọn bức tường và trong thuộc tính (property) của cấu kiện, thay đổi **top constraint**. Bạn có thể điều chỉnh **top offset** thủ công hoặc nhập giá trị. Bạn cũng có thể chọn tất cả các bức tường trên một tầng (level) và điều chỉnh chúng.
+
+### Lựa Chọn Phương Pháp Tốt Nhất
+
+Vậy làm thế nào để chọn phương pháp tốt nhất?
+
+* **Vấn đề khi sử dụng Attach/Join:** Khi bạn sửa đổi dự án, đôi khi các cấu kiện đã gắn hoặc nối có thể bị tách ra (detached), buộc bạn phải tách đối tượng (detach object) và khó biết đối tượng nào sẽ bị tách.
+* **Ưu điểm của điều chỉnh thủ công:** Khi bạn thực hiện thủ công, bạn chắc chắn rằng bức tường của bạn sẽ không bao giờ trở lại hình dạng ban đầu (initial shape).
+* **Nhược điểm của điều chỉnh thủ công:** Nếu bạn thay đổi độ dày (thickness) của sàn, bạn sẽ phải điều chỉnh bức tường này thủ công một lần nữa, trong khi nếu là tự động (automatic), bạn sẽ không cần phải điều chỉnh chiều cao của tường.
+
+### Tác Động đến Bảng Thống Kê (Schedule)
+
+Bây giờ, hãy xem điều này ảnh hưởng đến bảng thống kê (schedule) như thế nào. Mở **Wall Schedule** của giai đoạn hiện tại (actual stage). So sánh với chế độ xem bản nháp (drafting view) trước đó.
+
+Bạn có thể thấy rằng khối lượng (volume) của tường hiện được điều chỉnh (adjust) và chính xác hơn (more refined) so với trước đây. Mặc dù đây là một dự án nhỏ, bạn có thể hình dung tác động của nó trong một dự án rất lớn hoặc nhiều tòa nhà, giúp bạn có được số liệu rất chính xác về số lượng (quantity) và vật liệu (material).

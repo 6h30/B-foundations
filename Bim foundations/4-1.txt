@@ -1,0 +1,28 @@
+---
+## Bạn có thể mong đợi điều gì khi bắt đầu một dự án BIM?
+
+Tôi có thể tưởng tượng rằng bây giờ bạn đang băn khoăn về nhiều điều liên quan đến việc chuyển đổi sang (BIM), chẳng hạn như bắt đầu từ đâu, chi phí sẽ là bao nhiêu, chúng ta sẽ phải đợi bao lâu trước khi thấy lợi tức đầu tư (return of investment)? Đây là những cân nhắc thiết yếu trong quá trình phát triển doanh nghiệp của bạn. Dù bạn là kiến trúc sư (architect), chủ đầu tư (building owner) hay nhà thầu (contractor), trải nghiệm của bạn có thể hơi khác nhau một chút. Nhìn chung, có những điểm tương đồng lớn, nhưng khi có sự khác biệt, tôi sẽ cố gắng cung cấp những thông tin chi tiết mới đi kèm với từng ngành nghề.
+
+Đầu tiên, điều quan trọng là phải hiểu định nghĩa của mô hình thông tin công trình (building information modeling). Những gì bạn đang học ở đây với tôi là một khởi đầu tốt, nhưng cũng hãy cố gắng hiểu những gì đã xảy ra ở mỗi giai đoạn. Ngay cả khi nó không liên quan trực tiếp đến bạn, điều quan trọng là phải hiểu quá trình ra quyết định và tổ chức xung quanh quy trình (BIM), và vì vậy, điều cần thiết là bạn phải nhìn xa hơn phạm vi vai trò cụ thể của mình.
+
+Sau đó, hãy xem xét các nhu cầu về phần cứng (hardware), phần mềm (software) và đào tạo (training) liên quan đến việc triển khai (BIM) tại công ty của bạn. Hãy để các nhóm của bạn tham gia, (BIM) là một quy trình hợp tác (collaborative process), và điều đó bắt đầu bằng cuộc thảo luận đầu tiên về cách triển khai (BIM) trong công ty của bạn. Đừng ngần ngại mời đại diện các phần mềm khác nhau đến tư vấn và giúp bạn chọn các công cụ phù hợp hơn để đáp ứng nhu cầu của bạn. Họ cũng có thể cung cấp hướng dẫn về việc bạn có cần cập nhật máy tính và máy chủ (servers) hay không. Họ thậm chí có thể cung cấp đào tạo và giúp bạn tạo một kế hoạch triển khai (BIM) phù hợp với nhu cầu và ngân sách của công ty bạn.
+
+Thông qua kế hoạch triển khai, bạn có thể tìm hiểu cách nhận biết cách bạn làm việc để hiệu quả hơn và làm cho quá trình chuyển đổi của bạn có lợi nhuận. Bạn có thể cập nhật các tiêu chuẩn nội bộ (internal standards), tạo các mẫu phần mềm (software templates). Nếu bạn nghĩ rằng bạn không có thời gian, tôi biết, tất cả mọi người đều như vậy, hãy tìm kiếm sự giúp đỡ. Các nhà tư vấn quản lý (BIM manager consultants) ở đây để giúp bạn. Giai đoạn này thường bị bỏ qua, cũng như tác động của nó đến lợi nhuận của thiết bị và các khoản đầu tư con người của bạn. Quy trình (BIM) nhằm mục đích làm cho bạn cạnh tranh và hiệu quả hơn.
+
+Tất nhiên, nó sẽ không xảy ra trong một ngày, nhưng khả năng thích ứng của bạn với phần mềm (BIM) đủ nhanh và tôi không biết ai muốn quay lại phần mềm 2D, và tôi đã thấy các nhóm hoạt động hiệu quả chỉ trong hai tháng.
+
+---
+## Dự án (BIM) đầu tiên của bạn
+
+Sau đó, trong khoảnh khắc đầu tiên của dự án (BIM) đầu tiên của bạn, bạn có thể có mặt ngay từ đầu khi quyết định sử dụng (BIM) hoặc đơn giản là tuân theo quyết định của chủ đầu tư, kiến trúc sư hoặc thậm chí là nhà thầu chính rằng dự án sử dụng (BIM). Thông thường, (BIM) được chủ đầu tư khởi xướng, nhưng thực tế ngày nay là không phải tất cả các chủ đầu tư dự án đều đang sử dụng quy trình (BIM) cho các dự án của họ, vì vậy đôi khi đó là sáng kiến của kiến trúc sư hoặc nhà thầu chính.
+
+Điều tôi khuyên bạn nên làm nếu bạn có cơ hội là tự mình chọn một dự án. Thay vì triển khai (BIM) trên tất cả các dự án của bạn, hãy sử dụng một dự án làm cơ hội học hỏi và đào tạo. Đó sẽ là cơ hội để hiểu điều gì hiệu quả và điều gì không hiệu quả đối với các nhóm của bạn, nhưng cũng biết rằng đôi khi dự án đầu tiên của bạn đồng thời với quá trình chuyển đổi của bạn vì nó là một phần của hợp đồng bạn vừa ký, vì vậy đối với bạn, bạn sẽ không có một phút nào để mất. Có lẽ bạn đã hối hận vì đã không chuyển đổi sang (BIM) sớm hơn.
+
+---
+## Điều phối viên (BIM)
+
+Mỗi dự án phải có một điều phối viên (BIM coordinator). Người này nên nhiệt tình với quy trình và có nguồn lực và thời gian để tiếp tục học hỏi và đào sâu kiến thức về (BIM), vì vậy hãy tìm người tiên phong của bạn. Thật không may, những người có trình độ này khá hiếm. Tùy thuộc vào quy mô và phương tiện của doanh nghiệp bạn, đây là một số cách có thể để tìm một điều phối viên (BIM):
+
+Hãy xem liệu bạn có thể tìm thấy viên ngọc quý hiếm, một chuyên gia (BIM specialist) hay không, và đưa cho họ những gì họ yêu cầu, nhưng hãy chuẩn bị, một chuyên gia (BIM) có giá từ 6.000 đến 9.000 đô la mỗi tháng. Giờ đây, tôi biết rằng rất ít bạn có thể đủ khả năng chi trả, vì vậy một cách khác để điều chỉnh chi phí khi cần thiết là thông qua một nhà tư vấn (BIM consultant), một người có thể giúp đỡ và cũng xác định ai đó trong tổ chức của bạn trở thành người tham khảo (BIM) đó để bạn có thể tự chủ, nhưng hãy lưu ý rằng quản lý (BIM management) là một công việc lớn đòi hỏi thời gian chuyên dụng, nhưng nếu công việc này được thực hiện tốt, thời gian bỏ ra sẽ có tác động tích cực rất lớn đến năng suất của bạn và cho phép bạn tập trung vào các chủ đề quan trọng.
+
+Và bây giờ bạn đã sẵn sàng, hãy nhớ rằng quy trình làm việc (workflow) (BIM) mới của bạn sẽ mang lại lợi ích lớn nhất khi bạn chia sẻ mô hình kỹ thuật số (digital model) với các đối tác của mình. Một mô hình tích hợp (integrated model) cho phép phối hợp (coordination) nhanh hơn, sau đó đổi mới với (BIM). Khi kỹ năng sử dụng (BIM) của bạn được cải thiện, hãy tìm cách tận dụng những khả năng mới này bằng cách cung cấp các dịch vụ mới cho khách hàng của bạn và cho họ biết bạn thực sự đáp ứng và vượt quá mong đợi.

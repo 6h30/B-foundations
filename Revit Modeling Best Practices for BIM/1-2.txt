@@ -1,0 +1,61 @@
+## Sử dụng Quy ước Đặt Tên và Mã Hóa
+
+Khi nói đến các tiêu chuẩn và quy ước, có nhiều cách tiếp cận khác nhau tùy thuộc vào tiêu chuẩn của quốc gia hoặc chủ sở hữu dự án. Những yếu tố này sẽ ảnh hưởng đến mô hình BIM ở các mức độ khác nhau, bao gồm tên tệp mô hình, tên cấp độ, đối tượng cấu thành nguyên mẫu của dự án và vật liệu áp dụng cho một đối tượng. Việc mã hóa có thể được sử dụng để phân loại và sắp xếp các đối tượng theo mã. Quy ước đặt tên khung nhìn và tổ chức dự án cũng có thể được xác định, cùng với quy ước đặt tên cho các bản vẽ, cách đánh số và khung tên.
+
+### Tên Tệp
+
+Tất cả các tệp mô hình nên tuân theo quy ước đặt tên. Ví dụ, nó có thể bao gồm: **dự án, bộ môn, giai đoạn, phiên bản Revit**. Việc cung cấp phiên bản Revit là rất quan trọng vì nó thực sự giúp quản lý nhiều dự án cùng một lúc, cho biết chúng ta cần mở chúng bằng phiên bản Revit nào. Ví dụ, dự án ở đây là văn phòng, và bạn có cấu trúc, các giai đoạn (thiết kế chi tiết) và phiên bản Revit (2020).
+
+### Cấp Độ (Level)
+
+Các cấp độ nên tuân theo quy ước đặt tên để tránh nhầm lẫn. Ví dụ, đâu là cấp độ mặt đất (ground level), cấp độ chính (main level) hay cấp độ đầu tiên (first level)? Ngoài ra, các cấp độ dự án chính thức và độ cao của chúng nên được liệt kê trong **kế hoạch thực hiện**.
+
+Bất kỳ yếu tố đối tượng nào trong Revit đều có thể ở dạng 3D hoặc 2D. Chúng được tổ chức và có thể tuân theo quy ước đặt tên và mã hóa.
+
+Đầu tiên, hãy phác thảo cấu trúc của một tệp mô hình Revit:
+
+* **Danh mục (Category)**: Các danh mục được Revit định nghĩa, vì vậy chúng ta phải tuân theo danh sách của chúng. Tuy nhiên, chúng ta có khả năng tạo các **danh mục phụ (sub-category)**. Các danh mục ví dụ là tường, cửa, cấp độ, và danh mục phụ có thể là phào chỉ hoặc chân đế, nằm dưới danh mục tường. Điều này sẽ giúp chúng ta tổ chức các loại tường một cách dễ dàng. Một số danh mục phụ được xem trước trong mẫu Revit.
+
+* **Họ (Families)**: Sau đó là các họ. Một số có thể là họ hệ thống (system families), số khác là tệp RFA (loadable families) hoặc tại chỗ (in-place families). Nếu tôi xem xét một bức tường chẳng hạn, tường là họ hệ thống, đã được tích hợp sẵn để bạn sử dụng. Mặt khác, họ cửa là họ có thể tải được mà bạn có thể tải xuống từ internet hoặc tự xây dựng như cửa bỏ túi, cửa hai cánh. Và các họ tại chỗ có thể thuộc bất kỳ danh mục nào.
+
+* **Loại (Types)**: Trong mỗi họ (hệ thống hoặc RFA), bạn có thể xây dựng các loại khác nhau. Thông thường, bạn có thể tổ chức chúng theo kích thước, kiểu mẫu hoặc vật liệu, hoặc bất cứ điều gì khác bạn sẽ định nghĩa.
+
+* **Đối tượng thực thể (Instance)**: Revit gọi cái cuối cùng là đối tượng thực thể, đó là yếu tố duy nhất.
+
+Vậy, trong cấu trúc chặt chẽ đó, các tiêu chuẩn có thể được định nghĩa ở đâu? Ở cấp độ danh mục, chúng ta không thể làm được nhiều, và chúng đều được Revit định nghĩa trước. Đối với họ hệ thống cũng vậy, nhưng đối với họ có thể tải được (RFA), chúng ta có thể chọn tên của tệp.
+
+Đây là một ví dụ: Ai đó sẽ đặt chữ cái đầu của họ ở phía trước đối tượng để xác định tác giả. Ví dụ, một cánh cửa do LinkedIn xây dựng sẽ là "LEL BIM". Hoặc bạn cũng có thể thấy nó được đặt tên theo ngành nghề, vì vậy đối với một hạng mục kết cấu, nó có thể là "ST BIM", mặc dù những cái đó khá phổ biến.
+
+---
+
+### Tiêu chuẩn CSI MasterFormat
+
+Sau đó, chúng ta có **CSI MasterFormat**, được sử dụng ở Bắc Mỹ. MasterFormat là một tiêu chuẩn để tổ chức các thông số kỹ thuật. Nó cung cấp một danh sách chính các phân khu và số phần để tổ chức thông tin về một cơ sở. Do đó, các số mã và các tiêu chuẩn đó có thể được sử dụng để tổ chức thư viện, bởi vì ví dụ, khi bạn duyệt thư viện thành phần, các đối tượng của bạn được tổ chức theo các phân khu đó. Ví dụ ở đây, đối với cửa thoát hiểm, phân khu MasterFormat sẽ là **08**.
+
+---
+
+### Quy ước Đặt Tên Loại (Type Naming Convention)
+
+Đối với quy ước đặt tên loại, chúng ta có ít quy tắc hơn về việc đặt tên của chúng, nhưng phổ biến nhất là:
+
+* Các họ cụ thể độc đáo sử dụng cùng định dạng và đơn vị đo lường trong toàn bộ dự án của bạn để tránh nhầm lẫn giữa các đơn vị, chẳng hạn như chiều dài, chiều rộng, chiều sâu hoặc thứ tự độ dày.
+* Các tiêu chuẩn ngành, kích thước danh định của gỗ hoặc tên gạch.
+
+Sau đó, bạn cũng có loại họ hệ thống, vì vậy khi chúng ta có thể đổi tên họ, chúng ta thường áp dụng quy ước của họ trực tiếp cho loại của họ hệ thống. Đối với mỗi yếu tố trong mô hình, chúng ta có thể điền các thuộc tính khác nhau để lưu trữ thông tin. Một số thuộc tính được tích hợp sẵn trong Revit, nhưng bạn cũng có thể tạo những thuộc tính mới. Việc đặt tên vật liệu sẽ hoạt động giống như các họ.
+
+---
+
+### Các Thuộc Tính Thường Được Yêu Cầu
+
+Dưới đây là danh sách mà tôi thường đề cập là thường được yêu cầu:
+
+* **Loại đối tượng**: Thường có một mã được định nghĩa. Dữ liệu này sẽ được điền vào tham số **Type Mark**.
+* **ID của đối tượng thực thể**: Dữ liệu này sẽ được điền vào tham số **Mark**.
+* **CSI MasterFormat** mà chúng ta đã định nghĩa trước đó, **Uniclass** cho Vương quốc Anh, hoặc **Omniclass** cho Hoa Kỳ và Canada, cung cấp phương pháp phân loại toàn bộ môi trường xây dựng, trong suốt vòng đời dự án và được định nghĩa trong thuộc tính **Keynote**. Nếu cần, bạn có thể tạo một tham số dự án mới để điền những thông tin này.
+* **Uniformat** là phương pháp sắp xếp thông tin xây dựng, dựa trên các yếu tố chức năng hoặc các phần của một cơ sở được đặc trưng bởi chức năng của chúng, không liên quan đến vật liệu và phương pháp được sử dụng để hoàn thành chúng. Mã này có thể được điền vào tham số **Assembly Code** trong thuộc tính loại của các yếu tố.
+
+Một số gói phần mềm đặc tả và ước tính sử dụng ít nhất một trong các tiêu chuẩn mã này để thu thập và tổ chức dữ liệu.
+
+---
+
+Bất kể lựa chọn của bạn là gì, điều rất quan trọng là phải mô tả rõ ràng chúng trong **kế hoạch thực hiện BIM**. Điều này là bắt buộc. Bạn muốn đảm bảo rằng mọi người đều tuân thủ nó và biết cách điều hướng và đọc mô hình BIM.

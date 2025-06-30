@@ -1,0 +1,57 @@
+Dưới đây là bản dịch tài liệu sang tiếng Việt:
+
+---
+
+## Tính toán không gian (Room Calculation)
+
+Một thiết lập quan trọng khác là **tính toán không gian**. Việc đặt và cấu hình không gian đúng cách tại một thời điểm nào đó trong dự án là rất quan trọng. Tôi cũng khuyên bạn nên làm theo các bước này trước mỗi lần nộp bài: Hiển thị tất cả các không gian trên bản vẽ và kiểm soát chúng trong mặt bằng và mặt cắt. Bạn cũng có thể tham khảo công cụ cảnh báo (warning tool) để xác định các vấn đề về không gian.
+
+Các không gian sẽ được xuất dưới dạng hộp thể tích (volume boxes) sang phần mềm phân tích năng lượng. Đảm bảo mỗi không gian được gắn với đúng cấp độ (level). Rất tiếc, nếu bạn đặt sai một không gian, cấp độ đó không thể điều chỉnh được và bạn sẽ phải xóa không gian đó. Hãy chuyển đến chế độ xem mặt bằng tham chiếu cấp độ mong muốn và đặt không gian ở đó.
+
+Đối với các không gian chồng lấn (overlapping room), hãy đảm bảo tất cả các đường biên của không gian được xác định đúng, điều chỉnh nếu cần, sau đó kích hoạt tính toán thể tích (volume computation). Đảm bảo mỗi không gian được đặt ở đúng chiều cao. Sau đó, cũng hãy kiểm tra liên kết Revit của bạn xem chúng có nên là một phần của đường biên không gian hay không.
+
+Bây giờ chúng ta hãy xem Revit.
+
+Đầu tiên, chúng ta sẽ mở một chế độ xem và kích hoạt không gian. Tôi đang ở trong một tòa nhà văn phòng nhỏ rất bình thường. Tôi sẽ vào Tầng 1 và tất cả các không gian đã được đặt, nhưng bây giờ tôi muốn kiểm tra công việc của mình và xem liệu có thiếu sót gì không.
+
+---
+
+### Kiểm tra không gian trong mặt bằng
+
+Để làm điều đó, tôi sẽ vào **Properties**, **Visibility Graphic Override**, **Edit** và tôi sẽ cuộn xuống **Room**. Tôi mở **Room** và sẽ chọn **Interior Fill** và **Reference**. Nhấn OK.
+
+Bây giờ bạn có thể thấy màu xanh lam, màu xanh lam là để hiển thị vùng tô bên trong (interior fill) và bạn cũng có dấu chéo ở đây cho điểm tham chiếu bên trong (interior reference). Như bạn có thể thấy, có nhiều sắc thái xanh lam khác nhau. Màu xanh lam nhạt là một dấu hiệu tốt, nhưng khi bạn có một màu xanh lam đậm hơn một chút, điều đó có nghĩa là có các không gian bị chồng lấn.
+
+Ví dụ, ở đây tôi có một không gian ở đó và cũng có một không gian ở đó. Khi Revit tính toán không gian một lần, nó sẽ không tính toán lại, nhưng bạn sẽ có thông báo "Redundant Room." (Không gian thừa). Đây là điều chúng ta muốn tránh.
+
+Ngoài ra, nếu bạn thấy một số chỗ trống, điều đó có nghĩa là bạn đã quên đặt một số không gian. Điều đó rất dễ dàng, **Architecture**, **Room**, bạn có thể có một số không gian sẵn sàng để đặt hoặc bạn có thể tạo một không gian mới. Ví dụ, ở đây tôi sẽ đặt lại phòng kỹ thuật nhỏ và Nhà vệ sinh Nam ở đây.
+
+Bây giờ chúng ta sẽ phải tách các không gian này bằng cách sử dụng **Room Separator**. Ở đây tôi đang sử dụng chúng để tạo một số bức tường ảo để tách chúng nếu tôi không muốn chúng là một phần của cùng một không gian.
+
+Khi mọi thứ có cùng màu, không có chỗ trống nào cho thấy bạn đã bỏ lỡ một không gian trong mặt bằng thì bạn đã hoàn thành.
+
+---
+
+### Kiểm tra không gian trong mặt cắt
+
+Bây giờ chúng ta sẽ phải kiểm tra trong mặt cắt. Để làm điều đó, tôi sẽ mở **Section**, tôi đã kích hoạt không gian. Như bạn có thể thấy, nó hơi lộn xộn hơn ở đây. Bạn có thể thấy rằng các không gian đang chồng lấn về chiều cao. Theo mặc định trong Revit, không gian được gắn với cùng một cấp độ với đáy và giới hạn trên và sau đó bạn sẽ có giới hạn bù (offset limit).
+
+Vì vậy, bạn sẽ phải đảm bảo khi bạn đặt không gian của mình, bạn thay đổi các cấu hình đó hoặc bạn cũng có thể thay đổi chúng sau bằng cách chọn tất cả các không gian và thay đổi các tham số. Ví dụ, nếu tôi lấy không gian này và không gian này, tôi có thể thay đổi **Upper Limit** để gắn chặt với Tầng 2 và thay đổi **Limit Offset** thành 0.
+
+Bây giờ bạn thấy rằng không gian được gắn với cấp độ. Chúng ta vẫn đang chồng lấn lên sàn, chúng ta sẽ xem xét điều đó sau. Tương tự đối với những cái này. Chúng ta muốn chúng có chiều cao bằng chiều cao của trần nhà. Tôi sẽ chuyển sang **Thin Line**. Ở đây tôi muốn có chiều cao bằng chiều cao của trần nhà ở đây. Vì vậy, chúng ta có thể kéo nếu chúng ta muốn điều chỉnh thủ công ở đây. Rất tiếc, chúng ta có thể có phần đính kèm từ tính nên cách duy nhất là thay đổi **Limit Offset** này theo cách thủ công nếu bạn muốn rất chính xác.
+
+---
+
+### Kích hoạt tính toán không gian theo thể tích
+
+Bây giờ chúng ta sẽ kích hoạt tính toán không gian theo thể tích và điều đó sẽ thay đổi một vài điều ở đây. Vì vậy, hãy chuyển đến **Room Area** và **Area and Volume Computation**. Đó là điều bạn nên xác định sớm trong dự án sẽ giúp bạn ngay lập tức. Vì vậy, **Area and Volumes** nếu bạn chắc chắn sẽ thực hiện phân tích năng lượng, tôi khuyên bạn nên kích hoạt nó ngay từ đầu hoặc luôn giữ nó được kích hoạt trong mẫu (template) của bạn.
+
+Ví dụ ở đây, vì hai không gian này chồng lấn nhưng một phần của nó sẽ không, nên điều đó thay đổi bạn có một cảnh báo. Vì vậy, tất cả các không gian chồng lấn sẽ được lưu trữ trong vùng cảnh báo. Vì vậy, nếu bạn vào **Manage** và bạn có **Review Warning** ở đây. Bạn có thể xem lại các cảnh báo đó và đảm bảo chúng được làm sạch. Điều đó cũng rất quan trọng theo thời gian để đảm bảo không có cảnh báo rất quan trọng nào sẽ ảnh hưởng đến chất lượng mô hình của bạn hoặc sự ổn định.
+
+---
+
+### Kết luận
+
+Như bạn có thể thấy bây giờ, không gian dừng lại ở trần nhà hoặc ở sàn nhà. Bằng cách này, tự nhiên không gian sẽ được xác định bởi thể tích được bao quanh bởi sàn, trần và tường. Điều đó rất tiện lợi, nhưng nếu chúng ta thiết lập như ở đây, chiều cao thấp hơn chiều cao của mái nhà này hoặc trần nhà này hoặc bất kỳ sàn nào, nó sẽ không đạt đến chiều cao đó, vì vậy bạn phải đảm bảo bạn đi ít nhất cao hơn để nó sẽ điều chỉnh ở đúng chiều cao.
+
+Vì vậy, hãy đảm bảo bạn dọn dẹp mọi thứ, rằng tất cả các không gian đều có một không gian với định nghĩa phù hợp và bạn sẽ có thể bắt đầu xuất sang tư vấn viên của mình để phân tích năng lượng.

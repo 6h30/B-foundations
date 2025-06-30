@@ -1,0 +1,33 @@
+## Lựa chọn Công cụ Phù hợp (Choosing the Right Tool)
+
+Việc chọn các dòng bản ghi trong phần này sẽ điều hướng đến dấu thời gian trong video.
+
+---
+
+[Người dẫn chuyện] Việc lựa chọn **công cụ phù hợp** (right tool) và **quy trình mô hình hóa đúng đắn** (right modeling process) trước khi bắt đầu có thể giúp bạn tránh được việc mô hình hóa và mô hình hóa lại một cách vô ích. Khi nói đến việc mô hình hóa trong **Revit** chúng ta thường chọn chức năng nhanh nhất hoặc tiện lợi nhất để đạt được kết quả mong muốn. Dưới đây là một số lời khuyên chung cho người dùng Revit, tôi không chỉ nói về các trường hợp mô hình hóa cụ thể.
+
+Hãy dành thời gian và **suy nghĩ kỹ về kết quả bạn cần**. Không có một cách hoàn hảo duy nhất để làm mọi thứ trên Revit. Trước khi nhấp vào chức năng, hãy tự hỏi mình ba câu hỏi này:
+
+### 1. Tôi có thực sự cần điều này không? (Do I really need this?)
+Nếu có, tôi có cần nó ở **2D hay 3D**? Phản xạ đầu tiên, hãy tham khảo **Kế hoạch Thực hiện BIM** (BIM execution plan). Điều đó sẽ trả lời hầu hết các câu hỏi đó nếu có, hoặc nếu không, hãy sử dụng **lẽ thường** (common sense) của bạn.
+
+Ví dụ, bạn cần một chi tiết hiện lên trong bản kết xuất hình ảnh (visual render). Đó là lý do duy nhất, vậy hãy đánh giá lượng công việc cần thiết trong 3D so với lượng công việc cần làm trong **Photoshop**, chẳng hạn. Hoặc, "Có, tôi phải tính toán khối lượng vật liệu." Hoặc, "Không, tôi có thể ước tính số lượng bằng một công thức trong bảng thống kê (schedule)." Khi tôi nói điều đó, tôi đang nghĩ đến điều cơ bản.
+
+**Đừng mô hình hóa những thứ mà bạn chưa từng vẽ trước đây trong 2D.** Tôi biết nó trông đẹp trong 3D nhưng bạn có thực sự có thời gian không? Có thể một mô hình 3D đơn giản trên một vài mặt cắt (elevations) là đủ. Hoặc, "Không, trên thực tế không ai quan tâm," nhưng đừng quên hỏi xung quanh, chúng ta không bao giờ biết được.
+
+### 2. Điều này có khả năng thay đổi và cập nhật hơn không? (Will this be more likely to change and be updated?)
+Nếu có, theo cách nào? Bạn sẽ cập nhật **dữ liệu hay hình dạng** (data or the shape)? Đôi khi, để mô hình hóa một yếu tố, tôi chọn phương pháp lâu nhất để làm nó, bởi vì trong trường hợp có bất kỳ cập nhật nào, tôi sẽ có thể điều chỉnh nó chỉ trong vài cú nhấp chuột. Ngoài ra, hãy nghĩ về việc sử dụng **tham số toàn cục** (global parameters) cho dữ liệu. Chúng ta đều biết những thay đổi vào phút cuối (last minutes change) trước khi nộp bài có thể rất đau đớn, vì vậy hãy **dự đoán** (anticipate) chúng. Điều đó sẽ tăng thêm chất lượng của mô hình và năng suất của nhóm bạn.
+
+### 3. Đây có phải là mô hình BIM không? (Is it a BIM model?)
+Tất nhiên phải có một câu hỏi liên quan đến mô hình **BIM** (Building Information Modeling). Tôi sẽ không để bạn đi dễ dàng như vậy. Hai điều quan trọng bạn cần nhớ khi nói đến mô hình BIM:
+
+* **Mô hình này sẽ được chia sẻ với những người khác**, và họ sẽ chỉ truy cập vào các yếu tố mô hình của bạn, nghĩa là tất cả 3D bao gồm cả các đường mô hình 3D (3D model lines). Vì vậy, đừng cố gắng vá víu mọi thứ để làm cho chúng trông đẹp mắt bằng công cụ chú thích (annotation tool).
+* **Hãy sẵn sàng cho tương lai**, một số nhóm đã thử nghiệm các dự án không giấy tờ (no-paper projects). Và đừng nhảy vào suy nghĩ "đó là những gì chúng ta đã làm, chúng ta đang nộp bằng **PDF** qua E-mail." Vậy, tất nhiên là không giấy tờ nhưng đó không phải là ý tôi. Khái niệm là **chỉ nộp mô hình BIM**. Nếu nó được tạo bằng công cụ chú thích thì đối tượng hoặc dữ liệu đó không tồn tại. Vì vậy, tốt hơn hết bạn nên duy trì những thói quen tốt đó.
+
+Vậy, đối tượng của tôi là gì, một cột? Vậy tại sao bạn lại định nhấp vào công cụ tường (wall tool)? Vâng, tôi đã thấy bạn. Tôi biết, đôi khi tôi cũng làm vậy. Một số đối tượng thì rõ ràng, một số thì không. Nhưng điều rất quan trọng là bạn phải **sử dụng đúng công cụ**. Như vậy, đối tượng sẽ được **gán nhãn và phân loại đúng cách** (labeled and classified the right way), nếu không sẽ khó hơn để thực hiện phân tích bóc tách khối lượng (quantity takeoff analysis) hoặc chỉ đơn giản là điều hướng nhanh chóng trong dự án và để nó được hiểu ngay cả bởi người không mô hình hóa dự án. Nó cũng ảnh hưởng đến khả năng hiển thị và đồ họa (visibility and graphics). Và một quả táo là một quả táo, không phải một hạt đậu.
+
+Tôi biết sẽ tiện lợi hơn khi ép hoặc ghi đè (force or override) một đối tượng vào một danh mục (category) khác. Thật không may, Revit chưa cho phép điều đó. Ngoài ra, nếu bạn cần xuất dự án sang **IFC**, phân loại sẽ tuân theo danh mục Revit trong quá trình dịch (translation).
+
+Tôi hy vọng tôi đã cho bạn đủ điều để suy nghĩ trước khi bắt đầu thực hiện bất kỳ mô hình nào. Bây giờ, hãy cùng vui vẻ!
+
+---

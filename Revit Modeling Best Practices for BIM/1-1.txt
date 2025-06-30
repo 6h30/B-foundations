@@ -1,0 +1,28 @@
+## Kế hoạch Thực hiện BIM: Nền tảng cho Mô hình hóa Revit Hiệu quả
+
+---
+
+[Người hướng dẫn] Trước khi bắt đầu bất kỳ hoạt động mô hình hóa nào trong Revit, điều quan trọng là phải **khởi tạo Kế hoạch Thực hiện BIM (BIM Execution Plan)**. Đây không phải là trọng tâm của khóa học này, vì vậy tôi sẽ không đi sâu vào cách tạo một kế hoạch, nhưng tôi khuyến khích bạn xem các khóa học về chủ đề này. Điều tôi sẽ làm là chỉ ra lý do tại sao quy trình này thực sự quan trọng và một số quyết định có thể tác động đến việc mô hình hóa chúng ta thực hiện trong Revit như thế nào.
+
+Là một quản lý BIM, tôi luôn bắt đầu Kế hoạch Thực hiện BIM bằng cách áp dụng **bảng câu hỏi trực tuyến** cho nhóm dự án hoặc đơn giản là xem xét nó trong cuộc họp dự án đầu tiên. Hãy tìm hiểu **ai sẽ làm việc trực tiếp hoặc gián tiếp** trong dự án. Ai sẽ tham gia vào việc mô hình hóa? Ai sẽ chỉ sử dụng mô hình mà không đóng góp vào đó? Ai thường chỉ nhận được các bản vẽ 2D?
+
+Sau bước này, chúng ta cần **xác định mục tiêu và mục đích sử dụng BIM**. Mô phỏng mô hình như phân tích năng lượng, chiếu sáng, kết xuất, phát hiện xung đột, bảo trì. Sau đó, phần mềm sẽ được xác định bởi người dùng. Hãy **tạo một cuộc đối thoại** giữa các thành viên trong nhóm để tìm hiểu nhu cầu của mọi người. Để điều phối việc trao đổi thông tin giữa họ, tận dụng khả năng của họ và tìm hiểu xem họ có cần giúp đỡ không. Thiết lập giao tiếp ban đầu, đó là làm việc cùng nhau để hoàn thành một dự án chung. Vậy làm thế nào để chúng ta làm cho nhóm giao tiếp tốt hơn và nhanh hơn?
+
+Để đảm bảo **chất lượng của mô hình BIM và độ tin cậy của nó**, tài liệu Kế hoạch Thực hiện BIM là điều cần thiết. Mục tiêu và mục đích sử dụng BIM sẽ xác định nội dung và mục đích của mô hình BIM, cũng như mức độ tham gia của nhóm vào quá trình mô hình hóa.
+
+---
+
+### Các Yếu tố Quan trọng của Kế hoạch Thực hiện BIM
+
+---
+
+* **Xác định vai trò BIM:** Ai là quản lý BIM sẽ đảm bảo chất lượng mô hình? Thật không may, ngày nay, một người không thể mô hình hóa "đúng sách vở" nếu không có sự kiểm tra. Vâng, luôn có một phần trong chúng ta sẽ nói, "Không ai sẽ thấy nó." Hoặc, "Tôi sẽ sửa nó sau." Và chúng ta quên mất, đó là bản chất con người.
+* **Phần mềm được sử dụng:** Phiên bản phần mềm bạn đang sử dụng có tương thích với mô hình BIM không? Điều này sẽ cho phép chúng ta dự đoán các nhu cầu tương thích giữa các phần mềm.
+* **Cấu trúc mô hình BIM:** Mô hình sẽ được chia như thế nào trong suốt vòng đời của tòa nhà, trong giai đoạn thiết kế và xây dựng. Mô hình BIM thường được chia theo chuyên ngành, nhưng trong trường hợp một tòa nhà rất lớn hoặc nhiều tòa nhà trong dự án, mô hình cũng có thể được chia theo khu vực hoặc cấp độ. Tuy nhiên, điều quan trọng là phải làm rõ bất kỳ chiến lược nào bạn chọn và đưa vào Kế hoạch Thực hiện BIM.
+* **Nền tảng cộng tác:** Được rồi, điều này không ảnh hưởng nhiều đến mô hình BIM, nhưng tôi không muốn bạn nghĩ rằng bạn có thể làm BIM mà không có một nơi để trao đổi và lưu trữ mô hình BIM. Không có nền tảng, không có quy trình BIM.
+* **Quy ước đặt tên và mã:** Điều này giúp bất kỳ thành viên nào trong nhóm điều hướng nhanh chóng trong mô hình. Tôi sẽ phát triển chủ đề đó trong các video tiếp theo.
+* **Ma trận LOD (Mức độ Phát triển) và Trách nhiệm:** Đây là một phần chính trong Kế hoạch Thực hiện BIM của bạn, và sẽ chiếm phần lớn các cuộc thảo luận của bạn. Chúng ta sẽ phát triển chủ đề này sau.
+
+Tài liệu Kế hoạch Thực hiện BIM nên **theo sát mọi người trong nhóm dự án** như một tiếng còi dai dẳng. Nên có một bản in tại bất kỳ bàn làm việc nào hoặc ít nhất là một lối tắt đến tài liệu trên màn hình máy tính của bạn. Bạn cũng nên mở nó ít nhất một lần một ngày. Bạn không thể nhớ mọi thứ, và hãy đảm bảo phiên bản của bạn luôn được cập nhật.
+
+Bây giờ chúng ta hãy cùng tìm hiểu sâu hơn.

@@ -1,0 +1,17 @@
+Chắc chắn rồi, đây là bản dịch sang tiếng Việt của tài liệu bạn cung cấp:
+
+---
+
+## Xác định Mức độ Phát triển (Level of Development)
+
+Chọn các dòng bản ghi trong phần này sẽ điều hướng đến dấu thời gian trong video.
+
+Một bước rất quan trọng khác là phát triển **Mức độ Phát triển (Level of Development)** và **Ma trận Trách nhiệm (Responsibility Matrix)**, nhằm tối ưu hóa thời gian và tập trung nỗ lực vào những nơi cần thiết. Mức độ Phát triển là sự kết hợp giữa **mức độ chi tiết (level of detail)** và **mức độ thông tin (level of information)**. Nhóm dự án sẽ cần xác định cho từng cột mốc của dự án, cho từng đối tượng, tối thiểu theo từng hạng mục, mức độ chi tiết sẽ được mô hình hóa và thông tin mà nó chứa đựng.
+
+Nhưng trước tiên, tôi muốn định nghĩa **Ma trận Trách nhiệm** là gì, nó có hai cấp độ. Thứ nhất, nó xác định ai là người chịu trách nhiệm về mặt hợp đồng cho một đối tượng. Ví dụ, nhóm kết cấu chịu trách nhiệm định vị và định cỡ các bức tường bê tông, dầm và cột. Điều cốt yếu là có thể dựa vào mô hình và hoàn toàn tin tưởng vào nội dung của nó. Để tránh sự không nhất quán, điều rất quan trọng là chỉ có một phiên bản của mỗi đối tượng, để lại trong mô hình B.
+
+Chúng ta sẽ có các thiết bị chiếu sáng trong mô hình điện, cũng như trong mô hình kiến trúc, vì vậy chúng ta cần biết đâu là mô hình chính thức và đâu là mô hình đáng tin cậy. Bạn có thể quản lý điều đó ở cấp độ thứ cấp. **Ma trận Trách nhiệm** cho biết mô hình nào chứa hạng mục đối tượng nào. Bộ phận điện có thể chịu trách nhiệm về hệ thống chiếu sáng, nhưng chúng có thể được mô hình hóa trong mô hình kiến trúc.
+
+Hãy cùng xem một ví dụ để minh họa **LOD** và **Ma trận Trách nhiệm**. Đây là ảnh chụp màn hình của Ma trận LOD từ đặc tả LOD của diễn đàn beam 2019. Bảng bao gồm các cột để xác định LOD cho các cột mốc khác nhau trong một dự án. Mỗi cột mốc có ba cột con: **Mức độ phát triển (Level of development - LOD)**, **Tác giả phần tử mô hình (Model element author - MEA)** và **ghi chú (notes)**. Bảng hiển thị các cột mốc tiêu chuẩn cho việc hoàn thành các giai đoạn thiết kế truyền thống, cũng như ví dụ về các cột mốc cụ thể của dự án để tham gia đánh giá, các sản phẩm bàn giao cụ thể trong việc sử dụng trao đổi thông tin, v.v. Người dùng được khuyến khích sửa đổi và thêm các cột mốc này khi cần thiết.
+
+---

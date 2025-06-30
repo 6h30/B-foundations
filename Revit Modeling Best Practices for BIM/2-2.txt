@@ -1,0 +1,27 @@
+## Mô hình hóa theo từng tầng (Modeling per level)
+
+Khi mô hình hóa một nguyên mẫu (prototype), bạn cần áp dụng các **ràng buộc (constraints), quy tắc và phương pháp xây dựng trong thực tế**. Tôi biết sẽ rất hấp dẫn trong một dự án nhà cao tầng (high-rise project), chẳng hạn, để vẽ một cây cột (Collins) từ mặt đất lên đến mái. Trên bản vẽ của tôi, chúng sẽ trông giống nhau, và tôi không phải lo lắng về sự căn chỉnh (alignment) của chúng giữa các tầng. Nhưng liệu chúng có được xây dựng theo cách đó không? Không hẳn, đúng không?
+
+Đôi khi, có thể xảy ra trường hợp một bức tường được xây thẳng qua hai tầng khác nhau. Tuy nhiên, nếu bạn không chắc liệu các yếu tố có được xây dựng theo cách đó hay không, hãy **mô hình hóa (model) từng yếu tố theo từng tầng**. Hãy cùng xem điều đó sẽ thực sự ảnh hưởng đến những gì.
+
+Ở đây, tôi đã xây dựng một dự án nhỏ chỉ với vài tầng (floor) và các bức tường (wall) khác nhau. Chúng ta sẽ thay đổi ba bức tường đó thành một bức tường thẳng lên mái nhà (roof). Vì vậy, tôi sẽ xóa hai bức tường này và chọn tầng trệt (main floor level) để thay đổi ràng buộc trên cùng (top constraint) thành mái nhà.
+
+Đầu tiên, bạn sẽ thấy chúng ta sẽ gặp một vấn đề là khi có một bức tường cắt qua tất cả các tầng, nếu tôi muốn bức tường đó ngắn hơn, tôi sẽ phải sử dụng lỗ mở tường (wall opening). Vì vậy, để làm điều đó, chúng ta sẽ đi đến tầng ba và tạo một lỗ mở tường. Tôi sẽ vào Kiến trúc (Architecture), Lỗ mở tường (Wall Opening), chọn bức tường của tôi và nhanh chóng tạo nó.
+
+Ở đây, tất nhiên, tôi sẽ phải điều chỉnh nó. Nếu tôi chọn lỗ mở của mình ở đây và nhìn vào ràng buộc (constraint), bạn sẽ thấy rằng về cơ bản, **ràng buộc cơ sở (base constraint) của đối tượng đó, mặc dù tôi đã đặt nó ở tầng ba, lại là Tầng Chính (Main Level)**. Tại sao? Bởi vì bức tường bắt đầu từ tầng chính. Vì vậy, mọi thứ gắn liền với bức tường đó sẽ được gắn vào cùng một tầng. Điều đó sẽ là một vấn đề nếu bạn cần tạo lịch trình (schedule) và sắp xếp đối tượng theo từng tầng. Đó là vấn đề đầu tiên.
+
+Sau đó, ở đây, tôi sẽ giải quyết vấn đề đó một cách trực quan. Vì vậy, chúng ta sẽ có ít nhất cùng một lượng bê tông (concrete) chính xác cho lịch trình.
+
+---
+
+### So sánh lịch trình (Compare the schedule)
+
+Bây giờ, hãy so sánh lịch trình. Tôi đã tạo một lịch trình tường (wall schedule) với các tầng khác nhau, khối lượng bê tông và số lượng tường (count of wall). Tôi cũng đã chụp ảnh màn hình (screenshot) của giai đoạn trước, khi chúng ta chỉ có một bức tường. Vì vậy, tôi sẽ đóng tầng ba và khung nhìn 3D (3D view) và chỉ so sánh hai khung nhìn này.
+
+Bạn có thể thấy ở đây giai đoạn trước khi chúng ta có một bức tường hoàn hảo cho mỗi tầng. Bạn có thể thấy điều đó **ảnh hưởng đến khối lượng trên mỗi tầng như thế nào, và tất nhiên là cả số lượng trên mỗi tầng**. Revit sẽ không thể chia bức tường theo tầng mà chỉ chia theo cách bạn xây dựng nó.
+
+Vì vậy, nếu bạn không chắc phải làm gì, bạn luôn có thể sử dụng quy tắc chung (rule of thumb) này: **luôn mô hình hóa mọi yếu tố theo từng tầng**. Và thành thật mà nói, những lần hiếm hoi tôi không tuân theo quy tắc này, tôi đã hối hận và phải mô hình hóa lại (remodel). Đó là một quy tắc tốt để tuân theo trong mọi trường hợp.
+
+---
+
+Bạn có cần tôi hỗ trợ gì thêm không?

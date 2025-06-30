@@ -1,0 +1,50 @@
+## Xuất sang gbXML
+
+**Green Building XML (gbXML)** được phát triển để tạo điều kiện thuận lợi cho việc chuyển giao thông tin tòa nhà được lưu trữ trong mô hình (B model). Điều này giúp kết nối các công cụ phần mềm thiết kế tòa nhà và phân tích kỹ thuật (engineering analysis software tools) khác nhau, hỗ trợ kiến trúc sư, kỹ sư và người tạo mô hình hình ảnh (imaging modelers) thiết kế các tòa nhà tiết kiệm năng lượng hơn. Revit tích hợp các công cụ để cấu hình (configure), kiểm soát (control) và xuất sang định dạng gbXML.
+
+gbXML chứa ba loại đối tượng và dữ liệu của chúng:
+
+* **Không gian (Spaces):** Đây là các khối không gian hoặc khối khí riêng biệt, trải qua quá trình mất nhiệt hoặc nhận nhiệt (heat loss or gain). Những thay đổi nhiệt này là do các quá trình nội bộ như hoạt động của người sử dụng (occupancy), chiếu sáng (lighting), thiết bị (equipments) và HVAC, cũng như trao đổi nhiệt với các không gian khác và với môi trường bên ngoài (exterior environment).
+* **Bề mặt (Surfaces):** Là các đường truyền nhiệt (paths of heat transfer) đến hoặc đi từ mỗi không gian, bao gồm các bề mặt giữa không gian nội thất và môi trường bên ngoài.
+* **Vùng (Zones):** Là các nhóm không gian được sử dụng để thiết lập một số điểm chung (commonality) giữa các không gian đó. Ví dụ, các vùng có thể đại diện cho các không gian có cùng hướng (orientation), cùng chức năng (function) hoặc được phục vụ bởi cùng một hệ thống HVAC.
+
+Ví dụ, hình minh họa này cho thấy các không gian số một, các bề mặt số hai. Bạn có thể thấy các bề mặt màu đỏ sẽ là tường, sàn hoặc trần. Và mọi thứ tạo nên chúng với thông tin về vật liệu. Và bạn sẽ có số ba với vùng. Như bạn có thể thấy, ví dụ, tầng một nằm trong một vùng.
+
+---
+## Cách xuất sang gbXML
+
+Để xuất sang gbXML, bạn cần thiết lập một vài thứ, ví dụ như vị trí địa lý (geographic location). Đối với phân tích năng lượng (energy analysis), chúng ta cần biết chính xác tòa nhà nằm ở đâu trên hành tinh và hướng của nó như thế nào. Mặc dù chúng ta có thể đã định vị bằng cách sử dụng tọa độ dùng chung (shared coordinate), xoay theo hướng mặt đất (rotated to an earth) và đặt mô hình ở độ cao phù hợp (right elevation), chúng ta vẫn cần định vị nó bằng công cụ vị trí (location tool).
+
+Bạn có thể truy cập công cụ vị trí từ mục **'Manage'** hoặc **'Analyze'**, bạn sẽ thấy trong phần **'Energy Optimization'** ở đây. Đó chính là công cụ vị trí. Chúng là cùng một công cụ, chỉ khác cách truy cập.
+
+Ở đây bạn có **Location**. Bạn có thể xác định thành phố, bạn có thể xác định từ internet hoặc bạn có một danh sách mặc định của một số thành phố. Và bạn cũng có thể nhập số liệu nếu bạn biết chính xác vĩ độ (latitude) và kinh độ (longitude). Từ đó, bạn sẽ có thể chọn trạm thời tiết gần nhất (closest weather station) và nhận tất cả thông tin từ đó. Nhấp vào **'OK'**.
+
+Bây giờ chúng ta sẽ xem cách xuất. Bạn luôn cần xuất từ chế độ xem 3D (3D view). Sau đó, chúng ta sẽ vào tab **File**, chọn **Export**, rồi **gbXML**.
+
+Bạn có hai loại xuất khác nhau:
+
+* **Use Energy Settings (Sử dụng Cài đặt Năng lượng):** Phương pháp này xuất mô hình phân tích năng lượng (energy analytical model) được tạo bởi Revit. Mô hình phân tích năng lượng bao gồm các không gian phân tích (analytical spaces) và bề mặt phân tích (analytical surfaces), thường được tạo và quản lý bởi bộ phận cơ khí (mechanical trade).
+* **Use Room/Space Volumes (Sử dụng Thể tích Phòng/Không gian):** Mô hình này sử dụng các thể tích được xác định trong mô hình tòa nhà dựa trên các phòng hoặc không gian trong mô hình. Nếu bạn muốn xuất một mô hình kiến trúc (architectural model), bạn nên sử dụng tùy chọn này.
+
+Vì vậy, chúng ta hãy chọn **Room and Space Volume**. Nhấp vào **'OK'**.
+
+Revit sẽ tạo một bản xem trước (preview) mô hình của chúng ta. Chúng ta có thể điều hướng trong chế độ xem 3D này như bình thường trong phần mềm.
+
+Ở phía bên phải, chúng ta sẽ có một số cấu hình chung (general configuration) như loại tòa nhà (building type). Bạn vẫn có thể truy cập để thay đổi vị trí. Bạn cũng có thể chọn vị trí của mặt đất (ground). Ở đây, mục **Export Category**, nếu bạn sử dụng phòng, bạn có thể để nó ở phòng. Nếu bạn sử dụng không gian để tạo phòng, ví dụ, hoặc bạn sử dụng không gian để cung cấp thông tin khác, bạn cũng có thể tạo mô hình năng lượng từ đó. Vì vậy, chúng ta đã tạo một số phòng, chúng ta sẽ giữ nó là phòng. Trong mô hình của tôi, tôi đã tạo cả hai để bạn có thể thấy chúng trông như thế nào.
+
+Bạn cũng có các thông tin khác và giai đoạn dự án (project phase), nếu bạn muốn thay đổi, nếu bạn có các giai đoạn khác nhau. Hãy cẩn thận chọn cái bạn muốn.
+
+Điều thú vị ở đây là phần chi tiết (detail). Tôi sẽ mở cấp độ một (level one). Như bạn có thể thấy, chúng ta có tất cả các phòng ở đây với tên đã được đánh số. Chúng ta có cấp độ một và cấp độ hai. Và bạn có thể thấy rằng tôi có những ngôi nhà nhỏ xinh xắn với một hình chữ nhật màu xanh lá cây. Đó là tin tốt. Và chúng ta cũng có biểu tượng cảnh báo (warning symbol) ở đây.
+
+Vì vậy, điều chúng ta muốn đạt được trước khi xuất là tất cả các biểu tượng cảnh báo đó cần phải biến mất. Nếu tôi chọn, ví dụ, **'Office 29'**. Tôi nhấp vào **'Show related warnings'**. Và ở đây bạn có một lời giải thích về cảnh báo. Bạn có thể hiểu rằng căn phòng không được ngăn cách bởi trần nhà hoặc mái nhà hoặc bất kỳ yếu tố sàn nào (floor elements), vì vậy bạn sẽ phải điều chỉnh điều đó. Bạn phải điều chỉnh tất cả những điều này. Bạn sẽ phải quay lại mô hình. Tôi khuyến khích bạn chụp ảnh màn hình (screen shot) để bạn biết phòng nào có vấn đề và bạn không phải quay lại đây mọi lúc. Bạn cũng có thể, nếu muốn định vị một phòng, bạn có thể làm nổi bật nó (highlight) hoặc bạn có thể ẩn tất cả các phòng khác.
+
+Bây giờ chúng ta có thể xem xét các bề mặt phân tích (analytical surfaces). Ở đây, bạn có một cái nhìn khác về dự án của mình. Bạn vẫn có phòng của mình, nó vẫn được phân loại. Và bạn vẫn có cảnh báo của mình. Ở đây, sự khác biệt nhỏ sẽ là, nếu bạn mở phòng, bạn sẽ có mọi yếu tố cấu tạo nên căn phòng ở bên trong và cả nếu bạn có các lớp bên ngoài (exterior layers), lớp tường (wall layers). Đó là để trao đổi giữa các không gian. Tất nhiên, bạn cũng có các khe hở không khí (air gaps), trần (ceiling) và sàn (floor). Mỗi phòng sẽ có tất cả các bề mặt cấu tạo.
+
+Khi mọi thứ đã được thiết lập, bạn đã sẵn sàng. Bạn có thể lưu các cài đặt (save the settings) hoặc bạn có thể trực tiếp nhấp vào **'Next'**. Bạn đã sẵn sàng để lưu.
+
+Các công cụ phần mềm phân tích tòa nhà (building analysis software tools) có thể đọc dữ liệu bạn nhập vào mô hình của mình, nhưng thường thì các kỹ sư sẽ sử dụng phần mềm riêng của họ để cấu hình cài đặt năng lượng. Một lần nữa, hãy phối hợp với nhóm của bạn để xem liệu có bất cứ điều gì bạn có thể làm để giúp đỡ và có lẽ tránh mất thời gian chi tiết các thuộc tính vật liệu (material properties) vì chúng sẽ bị ghi đè (overridden). Và do đó, tránh làm công việc hai lần.
+
+Để biết thêm thông tin về gbXML, đừng ngần ngại truy cập trang web **gbxml.org** và cũng có thể duyệt thư viện của chúng tôi để tìm một số khóa học phân tích năng lượng.
+
+---
+Bạn có cần làm rõ thêm về phần nào trong tài liệu này không?

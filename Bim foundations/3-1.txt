@@ -1,0 +1,36 @@
+---
+## BIM dành cho chủ sở hữu (BIM for owners)
+
+Vậy tại sao các chủ sở hữu tòa nhà nên quan tâm đến BIM (Building Information Modeling)? Các ngành sản xuất và hàng không vũ trụ (aerospace industries) áp dụng các phương pháp quản lý tinh gọn (Lean management methodologies) và đã chuyển sang mô hình kỹ thuật số (digital modeling) đã tạo nên một cuộc cách mạng trong ngành của họ. Những người đi đầu trong việc áp dụng các quy trình này đã đạt được hiệu quả trong sản xuất cũng như thành công về mặt thương mại, trong khi những người đi sau buộc phải bắt kịp để cạnh tranh. Giờ đây, ngành xây dựng đang đối mặt với một cuộc cách mạng tương tự, đòi hỏi những thay đổi về quy trình và sự thay đổi mô hình (paradigm shift) từ tài liệu và quy trình bàn giao dựa trên 2D (2-D based documentation and delivery process) sang nguyên mẫu kỹ thuật số (digital prototype) và quy trình làm việc cộng tác (collaborative workflow).
+
+BIM có tiềm năng giúp chủ sở hữu nắm bắt thông tin tốt hơn, từ đó tạo điều kiện thuận lợi cho việc ra quyết định của họ. Thông tin này cho phép chủ sở hữu hiểu rõ hơn về ý định thiết kế (design intent). Thông tin được cung cấp từ sự kết hợp của hình ảnh 3D (3-D visualization), phân tích năng lượng (energy analysis) và phân tích chiếu sáng (lighting analysis) đều giúp đưa ra quyết định tốt hơn. Thông tin này có thể giúp đảm bảo rằng tòa nhà có thể được thiết kế để đạt được hiệu suất tổng thể tốt nhất và hiệu quả nhất.
+
+Sự phối hợp dự án tốt giữa các giai đoạn khác nhau giúp nâng cao lịch trình bàn giao dự án (project delivery schedule) và quản lý dự án (project management), đồng thời góp phần vào việc quản lý tài sản và cơ sở sau xây dựng (post-construction asset and facility management), tự động hóa và kiểm soát tòa nhà (building automation and control), và nhiều lợi ích khác, bao gồm tăng giá trị bán lại tài sản của tòa nhà (property resale values) cũng như doanh thu cho thuê (leasing revenues). Khi được lập kế hoạch và thực hiện tốt, việc sử dụng BIM có thể giảm chi phí vòng đời tòa nhà (building-lifecycle cost) từ 7 đến 20%.
+
+---
+
+### Vai trò của chủ sở hữu trong BIM
+
+Điều đó có nghĩa là chủ sở hữu chỉ cần chờ đợi và xem các lợi ích của BIM xuất hiện? Việc chỉ yêu cầu BIM trong một dự án không đồng nghĩa với thành công nếu các mục tiêu của chủ sở hữu cho dự án không được đặt ra rõ ràng và các yêu cầu BIM không tương quan để đạt được các mục tiêu đó. Để sử dụng BIM hiệu quả, một dự án nên bắt đầu bằng việc xác định các yêu cầu BIM (BIM requirements).
+
+Chủ sở hữu nên thiết lập các quy trình (processes), tiêu chuẩn (standards) và sản phẩm bàn giao (deliverables) cho các dự án được hỗ trợ BIM (BIM-enabled projects) có thể được chia sẻ và thống nhất liên tục bởi chủ sở hữu và phần còn lại của nhóm dự án. Việc lựa chọn phương pháp bàn giao dự án (project delivery method) ảnh hưởng đến cách BIM được phát triển và cách thông tin được trao đổi. Một dự án thiết kế-xây dựng (design-build project) sẽ chỉ có một người quản lý BIM dự án (project BIM manager), trong khi một dự án thiết kế-đấu thầu-xây dựng (design-bid-build project) sẽ có một người quản lý BIM trong giai đoạn thiết kế và thường là một người khác trong giai đoạn xây dựng.
+
+Các nghiên cứu cho thấy phương pháp thiết kế-xây dựng hoặc IPD (Integrated Project Delivery - Bàn giao dự án tích hợp) là phương pháp hiệu quả nhất để sử dụng BIM, và lý do chính là sự phối hợp của các nhà thầu chính (contractors), nhà thầu phụ (subcontractors) và nhà chế tạo (fabricator) trong quy trình thiết kế, cho phép nguyên mẫu ảo của tòa nhà (virtual prototype of the building) được nghiên cứu đầy đủ trước khi xây dựng bắt đầu.
+
+Tùy thuộc vào khu vực trên thế giới mà bạn đang ở, các yêu cầu BIM được phát triển trong hợp đồng của chủ sở hữu có tên EIR (Employee's Information Requirement - Yêu cầu thông tin của nhân viên) hoặc OPR (Owner's Project Requirement - Yêu cầu dự án của chủ sở hữu), vì vậy một chương hoặc phụ lục (appendix) nên được dành riêng cho các yêu cầu BIM.
+
+---
+
+### Hỗ trợ và lập kế hoạch BIM
+
+Một đại diện của chủ sở hữu (owner's representative) tồn tại để giúp chủ sở hữu xác định các mục tiêu dự án và soạn thảo hợp đồng yêu cầu dự án BIM của chủ sở hữu. Họ đóng vai trò là liên lạc viên chính (primary liaison) giữa chủ sở hữu và người quản lý BIM dự án cho tất cả các vấn đề liên quan đến BIM. Và họ cũng nhận, xem xét và phê duyệt các sản phẩm bàn giao BIM cho mỗi giai đoạn của dự án. Viện Khoa học Xây dựng Quốc gia (National Institute of Building Sciences) đã phát triển Hướng dẫn Mô hình Thông tin Xây dựng Quốc gia dành cho Chủ sở hữu (National Building Information Modeling Guide for Owners). Mục đích của hướng dẫn này là để phác thảo cho các chủ sở hữu tòa nhà cách phát triển và thực hiện các yêu cầu cho việc ứng dụng BIM. Tôi thực sự khuyên bạn nên đọc nó.
+
+Vì vậy, một khi nhóm dự án được tập hợp và vai trò cùng trách nhiệm của mọi người được xác định, thì chủ sở hữu sẽ cộng tác tham gia vào việc tạo ra một kế hoạch thực hiện BIM (BIM execution plan) với các bên liên quan chính của dự án (key project stakeholders). Trong khi một mô hình được sử dụng cho thiết kế và tài liệu, sau đó cho xây dựng, thì kế hoạch thực hiện BIM nên giải quyết các quy trình trao đổi mô hình (model exchange procedures), nói cách khác, làm thế nào mô hình có thể di chuyển giữa các giai đoạn dự án một cách hiệu quả với nỗ lực tối thiểu.
+
+---
+
+### Tối ưu hóa việc sử dụng BIM
+
+Nhưng trước tiên, các thành viên nhóm BIM dự án cần phối hợp các mục đích sử dụng BIM mà họ tìm cách tận dụng khi họ xác định các quy trình trao đổi mô hình. Như bạn có thể thấy, chủ sở hữu có một vai trò lớn trong quy trình BIM. Họ là những người thúc đẩy và khuyến khích BIM. Không có kích thước hay độ phức tạp nào mà một dự án phải đạt được để được hỗ trợ BIM. Mỗi dự án là độc nhất và sẽ cần sự chú ý đặc biệt từ các vấn đề, chẳng hạn như một ngôi nhà ở vùng tuyết hoặc một bệnh viện ở vùng động đất.
+
+BIM rất rộng lớn, nó cho phép nhiều nghiên cứu và phân tích, trên thực tế, nhiều đến mức chúng ta sẽ cần có giới hạn. Bằng cách xác định mục tiêu và mục đích sử dụng BIM liên quan đến nhu cầu và ngân sách của dự án, chúng ta có thể làm cho quy mô dự án BIM trở nên dễ quản lý. Nếu không, chúng ta có thể dành cả đời để thử nghiệm với một dự án và một mô hình BIM 3D, vì vậy hãy nhớ, hãy xác định mục tiêu của bạn.

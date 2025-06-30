@@ -1,0 +1,13 @@
+**Các bước tiếp theo**  
+Việc chọn các dòng phụ đề trong phần này sẽ dẫn bạn đến mốc thời gian tương ứng trong video.  
+
+- **Xin chúc mừng** bạn đã hoàn thành khóa học **Cơ bản về Mô hình Hóa Thông tin Công trình (BIM)**. Tôi hy vọng khóa học này đã mang lại cho bạn một khởi đầu tuyệt vời để hiểu về BIM và tất cả những lợi ích mà nó mang lại. Các chủ đầu tư, kiến trúc sư, kỹ sư, nhà thầu, nhà thầu phụ và người quản lý cơ sở vật chất đều đang khám phá giá trị của BIM. Tôi mong rằng mình đã giải đáp được một số thắc mắc của bạn về BIM, bao gồm định nghĩa, nguyên tắc và cách ứng dụng. Đồng thời, tôi cũng hy vọng đã khơi gợi cho bạn những câu hỏi mới – điều đó thật tuyệt vời, vì nó có nghĩa là bạn đang bắt đầu thay đổi tư duy từ quy trình CAD truyền thống.  
+
+Nếu bạn muốn tìm hiểu sâu hơn về BIM, dưới đây là một số gợi ý dành cho bạn:  
+- Tùy thuộc vào quốc gia bạn sinh sống, hãy truy cập trang web của **Viện Khoa học Xây dựng Quốc gia Hoa Kỳ (US National Institute of Building Science)** hoặc **UK National Building Specification (NBS)**. Cả hai đều cung cấp các hướng dẫn về sự phát triển của BIM.  
+- Hoặc ghé thăm **Chương trình Nghiên cứu Xây dựng Tích hợp Máy tính của Đại học Penn State (CIC)**. Họ có một trang web chuyên về BIM với nhiều tài nguyên như kế hoạch triển khai BIM, hướng dẫn cho chủ đầu tư và các nguồn ứng dụng BIM.  
+- Đừng quên thư viện địa phương – có rất nhiều sách hay về BIM để bạn khám phá.  
+- Đừng đánh giá thấp sức mạnh của **mạng xã hội**. Các nền tảng như **LinkedIn** hay **Facebook** có những nhóm thảo luận về BIM, nơi người mới có thể gặp gỡ chuyên gia. Ngoài ra, **MeetUp Hub** kết nối mọi người trên toàn cầu – biết đâu có nhóm người dùng BIM hoặc nhóm công cụ BIM như **ARCHICAD** hay **Reddit** gần bạn. Hãy thử tìm hiểu nhé!  
+Bạn cũng có thể theo dõi tôi trên **LinkedIn**. Dù bạn chọn con đường nào để ứng dụng kiến thức BIM, tôi chúc bạn gặt hái nhiều thành công!  
+
+*(Lưu ý: Từ "(mumbles)" trong bản gốc có thể là một từ khó nghe hoặc không rõ nghĩa, nên được lược bỏ trong bản dịch để đảm bảo tự nhiên).*

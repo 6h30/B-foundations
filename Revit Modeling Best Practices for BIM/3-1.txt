@@ -1,0 +1,28 @@
+## Đóng vỏ bọc công trình (Closing the envelope)
+
+Trong phân tích năng lượng (energy analysis), một vài quy tắc cần được tuân thủ. Những quy tắc này mang tính phổ quát đối với các phần mềm có thể đọc một mô hình B (B model). Ví dụ, mô hình cần được **niêm phong hoàn hảo (perfectly sealed)**. Chúng ta phải xem xét mô hình Revit của mình trong các chế độ xem 2D (2D views) và đặc biệt là chế độ xem mặt bằng (plane view).
+
+Tôi thực sự khuyến khích bạn **kiểm tra công việc của mình khi bạn tiến hành qua nhiều chiều và chế độ xem (multiple dimensions and views)**, chứ không chỉ vào cuối. Bạn có thể gặp một số bất ngờ khó chịu và thậm chí có thể phải bắt đầu lại toàn bộ công việc. Luôn mở một chế độ xem 3D (3D view) và sử dụng công cụ hộp (box tool) để nhanh chóng kiểm tra công việc của bạn.
+
+Ví dụ, ở đây trong không gian 3D. Nếu tôi nhìn xung quanh, tôi có thể tưởng tượng rằng ngôi nhà này đã khá hoàn thiện, nhưng liệu có phải vậy không? Nó có thực sự hoàn chỉnh không?
+
+Nếu tôi quay lại tầng một (level one) và chọn ví dụ bốn yếu tố này, và trong tab Modify (chỉnh sửa), tab đang hoạt động. Bạn có một công cụ nhỏ tên là **Selection Box (hộp lựa chọn)** trong chế độ xem (view) mà tôi thực sự yêu thích, đặc biệt là trong các dự án lớn (big projects). Nó cho phép bạn nhanh chóng cách ly khu vực bạn đang làm việc (isolate quickly where you are working) và có thể kiểm tra công việc của mình trong không gian 3D (check your work in 3D).
+
+Đó là điều tôi luôn làm khi tôi hoàn thành công việc ở một khu vực (zone). Vậy là, ở đây tôi đang kiểm tra, tôi thực sự có thể nhận ra rằng tôi đã không nhìn thấy điều đó trong không gian 3D trước đây, thấy không? Từ bên ngoài, tôi không thực sự thấy được, nhưng ở phần này, tôi có thể thấy rằng **tường của tôi không gắn vào mái nhà (my wall is not attached to my roof)**.
+
+Vì vậy, trước tiên chúng ta có thể bắt đầu bằng cách giải quyết vấn đề đó, điều này sẽ hoàn toàn đóng kín vỏ (shell) của ngôi nhà, cho phép kỹ sư (engineer) của chúng ta thực hiện đánh giá năng lượng (energy assess) mà không có không khí lạnh lọt qua những khoảng trống (gaps) đó.
+
+Vậy, hãy quay lại chế độ 3D đầy đủ. Tôi sẽ nhấp vào **Section Box** để hủy chức năng. Tôi sẽ chọn tất cả các bức tường (wall) và để nhanh hơn một chút, tôi có thể nhấn phím Tab và chọn tất cả các bức tường cùng một lúc. Ở đây tôi sẽ sử dụng **Attach Top/Base (Gắn đỉnh/đáy)**. Tôi đảm bảo mình đang gắn phần trên (attaching the top) và tôi đang chọn mái nhà (roof).
+
+Bây giờ, nếu tôi kiểm tra trong một mặt cắt (section), tôi có thể thấy rằng tường của tôi đang nối với mái nhà một cách hoàn hảo (joining my roof perfectly).
+
+---
+## Vỏ bọc bên trong công trình (Inside the envelope)
+
+Bây giờ, có một vấn đề trong ngôi nhà này. Có thể rất đơn giản khi chỉ nghĩ đến vỏ bọc bên ngoài (shell), nhưng chúng ta cũng phải nghĩ đến **bên trong (the inside)**. Vì vậy, khi bạn thực hiện phân tích năng lượng (energy analysis), bạn sẽ cần đảm bảo rằng **mọi căn phòng đều được đóng kín (every room are closed)**.
+
+Ở đây, ví dụ, tôi muốn phòng khách của tôi có trần nhà cao gấp đôi (double high ceiling), tôi muốn đi xuyên qua và nhìn thấy mái nhà của mình, nhưng đối với các phòng khác, tôi có trần nhà thấp (low ceiling) ở đây. Vì vậy, những gì tôi muốn làm là đảm bảo hai bức tường đó đi xuyên qua mái nhà, để căn phòng của tôi sẽ được niêm phong hoàn hảo (perfectly sealed). Nếu không, khi tôi tính toán, năng lượng cũng sẽ cố gắng làm nóng phía trên các căn phòng đó.
+
+Tôi đang chọn hai bức tường đó và tôi sẽ gắn đáy (attach the base) vào mái nhà của mình. Đây là một chi tiết nhỏ, nhưng nó sẽ thực sự giúp có một mô hình năng lượng tốt (good energy model) cho kỹ sư và cũng để anh ta hiểu, bạn chỉ quên vẽ trần nhà (draw ceiling) hay đó là vì bạn thực sự muốn trần nhà cao gấp đôi (double height)?
+
+Như bạn có thể tưởng tượng, chúng ta cần đảm bảo mô hình B (B model) không chứa bất kỳ khoảng trống không mong muốn (undesired gaps) nào và điều đó sẽ ảnh hưởng đến chất lượng và hiệu quả (quality and efficiency) của mô phỏng năng lượng (energy simulation).

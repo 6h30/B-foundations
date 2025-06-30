@@ -1,0 +1,15 @@
+## Từ viết tắt BIM
+
+Hãy cùng tập trung vào từ viết tắt **BIM**, B-I-M, trong vài phút. Có vẻ khá rõ ràng ý nghĩa của BIM cho đến nay, đúng không? Đó là **Building Information** (Thông tin Xây dựng). Khi nói đến chữ M, nó có thể gây nhầm lẫn hơn một chút. Hãy thử nghĩ về những gì bạn đã nghe xung quanh mình. Có thể chữ M là viết tắt của **Model** (Mô hình) hoặc **Modeling** (Lập mô hình). Và thế còn **Management** (Quản lý) thì sao, phải không, thật khó hiểu. Thực ra, nó bao gồm cả ba. Đó là điều tôi gọi là ba chữ M của BIM.
+
+Bây giờ, tôi sẽ không đánh lừa bạn. **BIM** là viết tắt của **Building Information Modeling** (Mô hình hóa Thông tin Xây dựng). Đó là định nghĩa chính thức bởi vì BIM trên hết là một **process** (quá trình), quá trình chia sẻ thông tin về tòa nhà và cũng định nghĩa kế hoạch thực hiện (**execution plan**) việc triển khai quá trình của môi trường dữ liệu chung (**common data environment**).
+
+Tiếp theo là **Building Information Model** (Mô hình Thông tin Xây dựng), đối tượng vật lý. Trong trường hợp này, nó mang tính ảo hơn. **Mô hình BIM 3D** có **Building Information Model** (Mô hình Thông tin Xây dựng) như cách gọi phổ biến hơn. Nhưng sự khác biệt giữa mô hình 3D và mô hình BIM 3D là gì? Và tại sao chúng ta phải sử dụng một phần mềm khác?
+
+Một **mô hình BIM 3D** là một sự kết hợp thông minh (**smart composition**) của các đối tượng và thông tin. Đó là sự kết hợp của các hình dạng 3D và dữ liệu liên quan của chúng. Và đó là sự khác biệt lớn, và chỉ một vài phần mềm có khả năng tạo ra các **mô hình thông minh** (**smart models**) này.
+
+Vậy còn chữ M cuối cùng cho **Management** (Quản lý) thì sao? **Management** (Quản lý) là một thuật ngữ mới đối với ngành xây dựng, nhưng bất kỳ ngành nào khác đều biết tầm quan trọng của việc sử dụng **manager** (người quản lý) để đảm bảo quá trình mà không can thiệp vào việc phát triển dự án (**project development**). Đó là phần con người, đảm bảo mọi người cộng tác vì lợi ích của dự án mà không có bất kỳ xung đột lợi ích (**conflicts of interest**) nào.
+
+Vì vậy, đó là ba chữ M của BIM của tôi. Để thực sự có thể nói rằng chúng ta đang làm BIM hoặc chúng ta đang sử dụng công nghệ BIM, bạn cần làm việc với cả ba chữ M. Sẽ không có BIM nếu không có mô hình 3D. Tất cả đều đồng ý về điều đó. Nhưng ngoài ra, cũng sẽ không có BIM nếu bạn không chia sẻ mô hình BIM 3D bằng cách sử dụng một quy trình chung (**common process**) trên một nền tảng cộng tác (**collaborative platform**) hoặc nếu không có sự giám sát của một **BIM manager** (người quản lý BIM).
+
+Vì vậy, đó là định nghĩa thực sự của BIM. BIM không chỉ là một phần mềm. Đó là **modeling** (lập mô hình), **model** (mô hình) và **management** (quản lý). Đó là một quá trình hợp tác (**collaboration process**) để chia sẻ thông tin bằng cách sử dụng một mô hình 3D thông minh (**smart 3D model**).

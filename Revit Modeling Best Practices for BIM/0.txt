@@ -1,0 +1,31 @@
+### **Tại sao cần mô hình hóa khác đi cho BIM?**  
+
+- **[Giảng viên]** Tại sao việc phân biệt **BIM** và **Revit**, đồng thời thêm một lớp khác biệt giữa **mô hình 3D** và **mô hình BIM**, lại quan trọng đến vậy? Tôi không định đi sâu vào toàn bộ định nghĩa BIM, nhưng bạn cần hiểu rằng:  
+  - **BIM mô tả một quy trình hành động** và **một quá trình hợp tác chia sẻ thông tin** xuyên suốt vòng đời công trình.  
+  - **Revit** có xuất hiện trong câu vừa rồi không? *Hết giờ — không*, bởi Revit hay bất kỳ phần mềm nào khác chỉ là **công cụ hỗ trợ BIM**, chứ không định nghĩa BIM.  
+
+*(Tạm dừng để nhấn mạnh)* Dù khái niệm BIM đã tồn tại hơn 20 năm, chúng ta vẫn đang ở giai đoạn sơ khai. Quay lại câu hỏi ban đầu: **Revit chỉ chiếm một phần nhỏ trong những gì BIM có thể đạt được**.  
+
+### **BIM trước hết là một quy trình**  
+Nếu bạn chưa đồng ý, tôi sẵn sàng tranh luận! Nhưng hãy tập trung vào mục tiêu chính: **Sử dụng Revit trong quy trình BIM**.  
+
+#### **Sự khác biệt giữa mô hình 3D, Revit và BIM?**  
+Nếu tách riêng các thuật ngữ đứng trước chữ *"model"*:  
+- **3D** → chỉ **hình dạng**.  
+- **Revit** → một **định dạng file** (.rvt).  
+- **BIM** → tập trung vào **thông tin** (chữ **I** trong BIM).  
+
+*(Tạm ngừng để kiểm tra bạn còn theo dõi không?)*  
+Chúng ta đã quên yếu tố **cộng tác**! Một mô hình không chứa dữ liệu thì không phải BIM. Hơn nữa, tích hợp quy trình hợp tác vào nhu cầu mô hình sẽ giúp:  
+✔ **Giao tiếp nhóm hiệu quả hơn**  
+✔ **Tiết kiệm thời gian**  
+✔ **Tối ưu hiệu suất**  
+→ Kết quả? Dự án chất lượng và đội ngũ hài lòng!  
+
+#### **Mô hình BIM là một nguyên mẫu số hóa**  
+Nó chứa dữ liệu đại diện cho dự án và được định nghĩa **theo từng giai đoạn vòng đời công trình**, thông qua sự hợp tác. Mô hình BIM có thể là:  
+- Tập hợp nhiều mô hình theo **hạng mục**, **khu vực**, **tầng**, hoặc  
+- Mô hình lắp ghép theo **trade** (điện, nước, kết cấu...), **zone**, **level**.  
+
+*(Chuyển tiếp tự nhiên)*  
+Tôi sẽ phân tích một số trường hợp cụ thể, dù không thể giải đáp mọi thắc mắc. Nhưng tôi sẽ hướng dẫn bạn **tư duy đúng** để tự tìm câu trả lời!  

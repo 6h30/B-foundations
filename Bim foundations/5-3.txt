@@ -1,0 +1,19 @@
+## Trực quan hóa (Visualization)
+
+Một trong những lợi thế khác của (Beam) là số lượng công cụ mô phỏng ngày càng tăng, cho phép các nhà thiết kế trực quan hóa (visualize) mọi thứ, chẳng hạn như không gian nội thất (interior volume), hoặc cách ánh sáng mặt trời sẽ di chuyển khi các mùa thay đổi. Trí thông minh của phần mềm để áp dụng các quy tắc dựa trên vật lý (physics) và thực tiễn tốt nhất (best practice) cung cấp một sự bổ sung cho kỹ sư (engineer) và các thành viên khác trong nhóm dự án (project team members).
+
+Trực quan hóa kiến trúc (Architectural visualization) phục vụ nhiều chức năng quan trọng. Nó có thể được sử dụng như một phương tiện để thể hiện tính thẩm mỹ (aesthetics), khối lượng (mass), chức năng (function) và ý tưởng về thiết kế khái niệm (conceptual design) hoặc thiết kế cuối cùng (final design) của kiến trúc sư. Đồng thời, nó cũng cho thấy mối quan hệ với yêu cầu của chủ sở hữu (owner's requirement) và ý định cho công trình mới (new construction). Hơn nữa, trực quan hóa kiến trúc không chỉ dành cho chủ sở hữu, nhà phát triển (developer) hoặc công chúng để trình bày (presentation), mà nó còn có thể được sử dụng hiệu quả như một công cụ để nâng cao sự hiểu biết về tòa nhà (building comprehension) và giao tiếp giữa các bên liên quan (stakeholders) trong các cuộc họp.
+
+Thực tế ảo (Virtual reality) cũng đang bắt đầu được sử dụng trong các cuộc họp để tập hợp mọi người xung quanh một mô hình ảo (virtual model). Đôi khi, mọi người thậm chí còn ở các nơi khác nhau trên thế giới và công nghệ này cho phép họ nói chuyện với nhau như thể họ đang ở trong cùng một căn phòng, cùng xem một mô hình VR (VR model) cùng một lúc.
+
+Tầm nhìn của kiến trúc sư hoặc nhà phát triển có thể được thể hiện và trải nghiệm thông qua một số công nghệ trực quan tuyệt đẹp:
+
+* Kết xuất kiến trúc 3D (3D architectural rendering) đúng với bản trình bày vật liệu thực tế (true to live material presentation).
+* Hoạt hình 3D (3D animation) có các chuyển động cụ thể (cynic motions), chẳng hạn như bay qua (fly over) hoặc đi bộ xuyên qua (walk through).
+* Mô phỏng ánh sáng mặt trời (simulation of sunlight) hoặc tính chất vật liệu (material properties).
+* Chế độ xem toàn cảnh (Panoramic view) để tạo ra trải nghiệm 360 độ tuyệt đẹp về tài sản đề xuất (proposed property).
+* Thực tế ảo thời gian thực (Real time virtual reality).
+
+Trực quan hóa 3D (3D visualization) là kết quả cuối cùng của các công cụ phần mềm đồ họa mạnh mẽ (powerful graphical software tools) được sử dụng để kết xuất các yếu tố phác thảo kiến trúc truyền thống (traditional architectural drafting element) nhằm mô phỏng thế giới thực, vật liệu nhân tạo (man made materials) và kết cấu tự nhiên (natural textures).
+
+Khi được kết hợp với công nghệ (3D Beam), các vật liệu cơ bản mà tôi nhập vào có nghĩa là một dầm thép (steel beam) được thể hiện bằng hình ảnh sẽ hoạt động như một dầm thép cho mục đích phân tích cấu trúc (structural analysis), ước tính chi phí (cost estimation), bảng kê vật tư nâng cao (advance bill of materials), và trình tự thi công và lắp dựng tự động (automatic construction and erection sequencing). (3D Beam) là một công cụ hiệu quả, nếu không muốn nói là thiết yếu, đối với kỹ sư và các thành viên khác trong nhóm dự án.
